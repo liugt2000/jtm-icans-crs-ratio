@@ -1,0 +1,216 @@
+{
+  "unsaturated_Emax_1e4": {
+    "r": {
+      "range": [
+        0.1,
+        1.2
+      ],
+      "R_min": 1.4341124639586438,
+      "R_max": 1.6341329684700583,
+      "relative_change": 0.1224016125844029,
+      "kind": "production"
+    },
+    "K": {
+      "range": [
+        0.3,
+        30.0
+      ],
+      "R_min": 1.6327649502631842,
+      "R_max": 1.6342703842814923,
+      "relative_change": 0.0009212433091818705,
+      "kind": "production"
+    },
+    "dA": {
+      "range": [
+        0.02,
+        0.4
+      ],
+      "R_min": 1.4957354732239445,
+      "R_max": 1.634140349606034,
+      "relative_change": 0.08469621702082014,
+      "kind": "production"
+    },
+    "kC": {
+      "range": [
+        0.1,
+        20.0
+      ],
+      "R_min": 1.6321485921880259,
+      "R_max": 1.6342717893345806,
+      "relative_change": 0.0012992805672983972,
+      "kind": "production"
+    },
+    "lC": {
+      "range": [
+        1.0,
+        30.0
+      ],
+      "R_min": 1.6333842403031111,
+      "R_max": 1.634252704320946,
+      "relative_change": 0.0005314524954038238,
+      "kind": "production"
+    },
+    "A0": {
+      "range": [
+        0.0001,
+        1.0
+      ],
+      "R_min": 1.6339250286713183,
+      "R_max": 1.634136130358801,
+      "relative_change": 0.00012918269069602567,
+      "kind": "production"
+    },
+    "kE0": {
+      "range": [
+        0.05,
+        1.0
+      ],
+      "R_min": 0.3714201092826797,
+      "R_max": 7.425467753289652,
+      "relative_change": 4.3166914761200825,
+      "kind": "amplification"
+    },
+    "lE": {
+      "range": [
+        0.05,
+        1.5
+      ],
+      "R_min": 0.381325177521531,
+      "R_max": 10.16622088981787,
+      "relative_change": 5.987821184037327,
+      "kind": "amplification"
+    },
+    "Emax": {
+      "range": [
+        2.0,
+        30.0
+      ],
+      "R_min": 1.121216715589202,
+      "R_max": 1.5859026175984816,
+      "relative_change": 0.2843623651990528,
+      "kind": "amplification"
+    },
+    "beta": {
+      "range": [
+        0.0,
+        4.0
+      ],
+      "R_min": 0.6285480572720463,
+      "R_max": 3.142297874157971,
+      "relative_change": 1.538277447965471,
+      "kind": "amplification"
+    },
+    "_base_R": 1.634132919396703,
+    "_summary": {
+      "production_max_rel_change": 0.1224016125844029,
+      "amplification_max_rel_change": 5.987821184037327
+    }
+  },
+  "nominal_Emax_8": {
+    "r": {
+      "range": [
+        0.1,
+        1.2
+      ],
+      "R_min": 1.4068131162807576,
+      "R_max": 1.5901579338899978,
+      "relative_change": 0.12502075221022607,
+      "kind": "production"
+    },
+    "K": {
+      "range": [
+        0.3,
+        30.0
+      ],
+      "R_min": 0.7622602117064579,
+      "R_max": 1.6158006224206525,
+      "relative_change": 0.5820195279080301,
+      "kind": "production"
+    },
+    "dA": {
+      "range": [
+        0.02,
+        0.4
+      ],
+      "R_min": 1.4378160227831707,
+      "R_max": 1.5481905596746053,
+      "relative_change": 0.07526314518707755,
+      "kind": "production"
+    },
+    "kC": {
+      "range": [
+        0.1,
+        20.0
+      ],
+      "R_min": 0.620390480292775,
+      "R_max": 1.6210365131225408,
+      "relative_change": 0.6823291836215554,
+      "kind": "production"
+    },
+    "lC": {
+      "range": [
+        1.0,
+        30.0
+      ],
+      "R_min": 0.9690972380249079,
+      "R_max": 1.5977271775413215,
+      "relative_change": 0.4286556278220654,
+      "kind": "production"
+    },
+    "A0": {
+      "range": [
+        0.0001,
+        1.0
+      ],
+      "R_min": 1.4664198365553347,
+      "R_max": 1.466516246828849,
+      "relative_change": 6.574107232880188e-05,
+      "kind": "production"
+    },
+    "kE0": {
+      "range": [
+        0.05,
+        1.0
+      ],
+      "R_min": 0.36201557776763077,
+      "R_max": 4.8872175104514675,
+      "relative_change": 3.085683887357335,
+      "kind": "amplification"
+    },
+    "lE": {
+      "range": [
+        0.05,
+        1.5
+      ],
+      "R_min": 0.37141891352832884,
+      "R_max": 6.230907326885764,
+      "relative_change": 3.9955187092680116,
+      "kind": "amplification"
+    },
+    "Emax": {
+      "range": [
+        2.0,
+        30.0
+      ],
+      "R_min": 1.121216715589202,
+      "R_max": 1.5859026175984816,
+      "relative_change": 0.3168640475811279,
+      "kind": "amplification"
+    },
+    "beta": {
+      "range": [
+        0.0,
+        4.0
+      ],
+      "R_min": 0.6020790899315946,
+      "R_max": 2.576111331857571,
+      "relative_change": 1.3460702025339737,
+      "kind": "amplification"
+    },
+    "_base_R": 1.466515073441092,
+    "_summary": {
+      "production_max_rel_change": 0.6823291836215554,
+      "amplification_max_rel_change": 3.9955187092680116
+    }
+  }
+}

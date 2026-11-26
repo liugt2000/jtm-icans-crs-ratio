@@ -1,0 +1,26 @@
+n,doi,title_sim,status,note
+1,10.1038/s41408-021-00459-7,1.000,ok,Sterner 2021 | Blood Cancer Journal | CAR-T cell therapy: current limitations and potentia
+2,10.1002/hon.2595,1.000,ok,Neelapu 2019 | Hematological Oncology | Managing the toxicities of CAR T‐cell therapy
+3,10.1182/blood-2014-05-552729,1.000,ok,Lee 2014 | Blood | Current concepts in the diagnosis and management of 
+4,10.1016/j.bbmt.2018.12.758,1.000,ok,Lee 2019 | Biology of Blood and Marro | ASTCT Consensus Grading for Cytokine Release Syndrom
+5,10.1038/nrclinonc.2017.148,1.000,ok,Neelapu 2017 | Nature Reviews Clinical On | Chimeric antigen receptor T-cell therapy — assessmen
+6,10.1158/2159-8290.cd-17-0698,1.000,ok,Gust 2017 | Cancer Discovery | Endothelial Activation and Blood–Brain Barrier Disru
+7,10.1093/brain/awz053,1.000,ok,Rubin 2019 | Brain | Neurological toxicities associated with chimeric ant
+8,10.1038/nm.3838,1.000,ok,Long 2015 | Nature Medicine | 4-1BB costimulation ameliorates T cell exhaustion in
+9,10.1016/j.ccell.2015.09.004,1.000,ok,Zhao 2015 | Cancer Cell | Structural Design of Engineered Costimulation Determ
+10,10.1056/nejmoa2307980,1.000,ok,Ahn 2023 | New England Journal of Med | Tarlatamab for Patients with Previously Treated Smal
+11,10.1080/00031305.1999.10474456,1.000,ok,"Dumouchel 1999 | The American Statistician | Bayesian Data Mining in Large Frequency Tables, with"
+12,10.1002/pds.1742,1.000,ok,Bate 2009 | Pharmacoepidemiology and D | Quantitative signal detection using spontaneous ADR 
+13,,,manual,no confident Crossref match
+14,10.1038/clpt.2012.50,1.000,ok,Harpaz 2012 | Clinical Pharmacology &amp | Novel Data-Mining Methodologies for Adverse Drug Eve
+15,10.1038/nrg2918,1.000,ok,Barabási 2010 | Nature Reviews Genetics | Network medicine: a network-based approach to human 
+16,10.1126/science.1257601,1.000,ok,Menche 2015 | Science | Uncovering disease-disease relationships through the
+17,10.1038/ncomms10331,1.000,ok,Guney 2016 | Nature Communications | Network-based in silico drug efficacy screening
+18,10.1371/journal.pmed.1001885,1.000,ok,Benchimol 2015 | PLOS Medicine | The REporting of studies Conducted using Observation
+19,10.7326/0003-4819-147-8-200710160-00010,0.662,ok,von Elm 2007 | Annals of Internal Medicin | The Strengthening the Reporting of Observational Stu
+20,10.1126/science.1260419,1.000,ok,Uhlén 2015 | Science | Tissue-based map of the human proteome
+21,10.1126/sciadv.abh2169,1.000,ok,Karlsson 2021 | Science Advances | A single–cell type transcriptomics map of human tiss
+22,10.15252/msb.20209923,1.000,ok,Türei 2021 | Molecular Systems Biology | Integrated intra‐ and intercellular signaling knowle
+23,10.1080/01621459.1927.10502953,1.000,ok,"Wilson 1927 | Journal of the American St | Probable Inference, the Law of Succession, and Stati"
+24,10.1002/sim.5925,1.000,ok,Schuemie 2013 | Statistics in Medicine | Interpreting observational studies: why empirical ca
+25,10.1016/j.cpc.2009.09.018,1.000,ok,Saltelli 2010 | Computer Physics Communica | Variance based sensitivity analysis of model output.

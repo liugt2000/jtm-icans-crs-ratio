@@ -1,0 +1,65 @@
+{
+ "threshold": 0.32,
+ "window": [
+  0.321,
+  0.415
+ ],
+ "gap_to_4_1bb_ceiling": 0.012,
+ "products_whose_CI_covers_threshold": [
+  "obe-cel",
+  "liso-cel",
+  "cilta-cel"
+ ],
+ "decidability": [
+  {
+   "true_R": 0.15,
+   "verdict": "refutes",
+   "min_reports": 29
+  },
+  {
+   "true_R": 0.2,
+   "verdict": "refutes",
+   "min_reports": 59
+  },
+  {
+   "true_R": 0.25,
+   "verdict": "refutes",
+   "min_reports": 171
+  },
+  {
+   "true_R": 0.3,
+   "verdict": "refutes",
+   "min_reports": 2090
+  },
+  {
+   "true_R": 0.32,
+   "verdict": "supports",
+   "min_reports": null
+  },
+  {
+   "true_R": 0.332,
+   "verdict": "supports",
+   "min_reports": 5805
+  },
+  {
+   "true_R": 0.36,
+   "verdict": "supports",
+   "min_reports": 523
+  },
+  {
+   "true_R": 0.39,
+   "verdict": "supports",
+   "min_reports": 171
+  },
+  {
+   "true_R": 0.42,
+   "verdict": "beyond window (high)",
+   "min_reports": 37305
+  },
+  {
+   "true_R": 0.5,
+   "verdict": "beyond window (high)",
+   "min_reports": 130
+  }
+ ]
+}

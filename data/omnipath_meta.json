@@ -1,0 +1,31 @@
+{
+  "file": "data/omnipath_interactions_20261116.tsv",
+  "rows": 139851,
+  "sha256": "2bb2bbfb88472247b9e39b2f218adb4dcc612bbe5fc19f2285014fdaf9d2535a",
+  "n_fields": 15,
+  "fields": [
+    "source",
+    "target",
+    "source_genesymbol",
+    "target_genesymbol",
+    "is_directed",
+    "is_stimulation",
+    "is_inhibition",
+    "consensus_direction",
+    "consensus_stimulation",
+    "consensus_inhibition",
+    "sources",
+    "references",
+    "curation_effort",
+    "entity_type_source",
+    "entity_type_target"
+  ],
+  "retrieved": "2026-11-16",
+  "datasets": [
+    "omnipath",
+    "pathwayextra",
+    "kinaseextra",
+    "ligrecextra"
+  ],
+  "organisms": "9606"
+}

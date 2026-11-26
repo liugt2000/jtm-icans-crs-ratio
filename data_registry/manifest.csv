@@ -1,0 +1,71 @@
+path,bytes,sha256,role,source,mtime_utc
+data/cases_icans_crs.jsonl,71359107,397517cfe16ade95fe8f6194ec800de05df523b463e71edc9a26301480ac26ab,raw_input,"openFDA drug/event, case-level records; query patient.reaction.reactionmeddrapt:""Immune effector cell-associated neurotoxicity syndrome"" + ""Cytokine release syndrome""; api.fda.gov, limit=500, paged",2026-11-16T09:34:09Z
+data/cases_legacy_nt.jsonl,28034659,45951bd6c51c0af21da5c83aca6e7e8634e45e09dd3a3326055687a4a63f949c,raw_input,,2026-11-20T23:49:34Z
+data/cases_part_0_0.jsonl,3951638,3c1dc4f5ce0e5230b7e9af80fed708eb9880a521253d9e7d38d1af24318ad3af,raw_input_intermediate_page,,2026-11-16T09:32:09Z
+data/cases_part_0_1.jsonl,4013630,08981f337e1c1033c4771809675070c5b87c935294816b96d543e7438b809530,raw_input_intermediate_page,,2026-11-16T09:32:11Z
+data/cases_part_0_2.jsonl,3492030,b8d368a676b9f0cccc995b08ea60891197b2bb3aa834028a2a9590bff49880b3,raw_input_intermediate_page,,2026-11-16T09:32:01Z
+data/cases_part_1_0.jsonl,22910838,b7d96c4a0e8038cd23cebdfbed9643e6c2821882ed434c9be98b4eea08c2ab9e,raw_input_intermediate_page,,2026-11-16T09:33:43Z
+data/cases_part_1_1.jsonl,23887131,daa1ccf12172fdabbd7481ddc80b6e9e667e2e4e2fe13ea3e90da6dacc2b0e97,raw_input_intermediate_page,,2026-11-16T09:34:06Z
+data/cases_part_1_2.jsonl,20646889,e25f6529eaad193385a6569877ab6e917d21c6fac998f4d172bcf9b1332b427f,raw_input_intermediate_page,,2026-11-16T09:33:53Z
+data/GSE195519_raw_counts.csv.gz,2945720,b754d417bd435d5da6ef951dc5c2c0e0069e01da1f360281f40c6feafe6bab31,raw_input,"GEO GSE195519 (iBMEC/iPSC-EC/HDMEC/iPC) raw counts, NCBI FTP",2026-11-16T09:07:26Z
+data/GSE211439_processed_count.txt.gz,692592,0cf607235340fedba9448f85e38cebb5935f17ed59e14ccf989730ec6d463d1d,raw_input,"GEO GSE211439 (hBMEC +/- TNF-a) processed counts, NCBI FTP",2026-11-16T09:07:21Z
+data/hpa_proteinatlas_20261116.tsv.zip,7225618,10a737f01ee0bf87bed25a7aefa50d979ea450b4ba87275e0231621783eea064,raw_input,Human Protein Atlas v24 rna_single_cell_type.tsv.zip (https://www.proteinatlas.org/download/tsv/rna_single_cell_type.tsv.zip),2026-11-16T08:58:45Z
+data/omnipath_interactions_20261116.tsv,20868481,2bb2bbfb88472247b9e39b2f218adb4dcc612bbe5fc19f2285014fdaf9d2535a,raw_input,"OmniPath interactions (https://omnipathdb.org/interactions), fields=sources,references,curation_effort,is_directed,entity_type, genesymbols=yes, datasets=omnipath,pathwayextra,kinaseextra,ligrecextra, organisms=9606",2026-11-16T08:57:40Z
+data/omnipath_meta.json,697,8e8b49349d37cd1bc00210d7e95a00a891d99f2df788cb56c0e7e39e8b55f7e5,raw_input,,2026-11-16T08:58:12Z
+data/reactome_pathways_v98_20261125.gmt,1039264,a9feaa3ae9bbb746422cba77a669813de627fb15b7d7478b67c8d57020ec26ae,raw_input,"Reactome v98 pathway gene sets, UniProt-to-HGNC symbols as distributed (https://reactome.org/download/current/ReactomePathways.gmt.zip), positive-control annotation only",2026-11-25T13:09:16Z
+data/reactome_pathways_v98_20261125.gmt.zip,300128,6056fcd95dc8f09740c8bb64c2765bea1386ce91b9b19cd10bcd45d30451805c,raw_input,"same file as downloaded, kept zipped so the unzip step can be re-checked",2026-11-25T13:09:16Z
+out/case_bias_examples.csv,752,5a948e88e06b8b03926e91f3e2e111528cd6d0eafe8bb7980e17f16fe2380963,derived_output,,2026-11-25T08:48:14Z
+out/case_by_year.csv,299,1b153ebae2758f21cd816525bbd2a094423388f4925ddca0e036283bb7126f62,derived_output,,2026-11-25T08:48:14Z
+out/case_groups.json,12725,b82d315a04e8ead84acfe56b619495b09d7a213d78ebea04ea416dc6abe78a52,derived_output,,2026-11-25T08:48:14Z
+out/case_products.csv,1932,5d45f047a368b68ccb54c8007afe74c0b59515cfc02d4a2871d03290569f85ce,derived_output,,2026-11-25T08:48:11Z
+out/case_products_anyrole.csv,1940,078a67ed16bf62a1e1bef02f2059afe752fa8db96c85d2f00265693608423f13,derived_output,,2026-11-25T08:48:11Z
+out/case_products_isolated.csv,1918,d293762ee82368fd32912f03c65e3dd0dec1fa564fada5cdc8348fb6045463f2,derived_output,,2026-11-25T08:48:11Z
+out/case_severity.csv,1671,0a88dd00b07374b642f4f0b4e1d39f9017e9c068984af7b869a8862a4640653b,derived_output,,2026-11-25T09:29:38Z
+out/case_severity.json,2544,7299625807aa6da14d1bbee809f756dad42ebf79f03fc5dd70e6c8f1bbc364cb,derived_output,,2026-11-25T09:29:38Z
+out/case_temporal.csv,7105,26ab6d3e3e03071d4ccd26149397fd40052b207860c96723a27f2b30f983d16d,derived_output,,2026-11-25T08:48:12Z
+out/counts_long.csv,36382,ea2b5ea9ed0fc3898b50a601b57332a7a6fe5d5ed52e7db36cfcf121e37c0d8b,derived_output,,2026-11-16T08:47:53Z
+out/ebgm_hyperparameters.json,185,deb5b3492dd8d5cb579ca6c8397bf8b02bce42a4289d98acf00a9a0c44d481d0,derived_output,,2026-11-16T08:51:21Z
+out/ebgm_stability.csv,515,2c47637a3610df80f9268deb3e9a2e25e22637dcf05e0034f85911f94d4df00a,derived_output,,2026-11-16T08:51:14Z
+out/ev_counts.json,20397,5b6a83b113f7bd04a47969ca8790a99d988a3591505fccca340e80ffa2f28819,derived_output,,2026-11-21T00:38:26Z
+out/ev_counts.jsonl,16636,294d2f8c144f7dbcfaf86837ba733276b64601bcce1fcac657860b3cdc0b5373,derived_output,,2026-11-21T00:38:26Z
+out/ev_index_probe.json,22,ab4bf214ff8d3e2840b8ec4cc8569a3366ba67c650e7674abe7d937b03e240ec,derived_output,,2026-11-17T06:21:10Z
+out/ev_probe.json,2919,04677d3e0936c4ab1bd200a9aa7b5fb7279e7eb9a81df0a6ea31660a052ee405,derived_output,,2026-11-17T06:19:44Z
+out/ev_replication.json,6983,4063f925cd44815a084f96971538e01533ff4c1b42a53898dab873fa92efcd17,derived_output,,2026-11-21T00:46:31Z
+out/ev_substance_index.csv,1198590,c2d3ca321e89ded3bedae3e41e1bff629709e3c6e334f4088ac9fbc5a1743bcb,derived_output,,2026-11-17T06:21:10Z
+out/holdout.json,2394,d4777c3ca38ba2977ad113646484bea210c8aac75d6f18a08bf7e49dc996a759,derived_output,,2026-11-20T23:07:09Z
+out/holdout_products.csv,420,7b26a8198aff101fc2b20869d7f1e6cb4c32ff1db5289e7d0c081f55d0fccd3e,derived_output,,2026-11-20T23:07:09Z
+out/legacy_count_reconciliation.json,109,74ba075a121beaf3374f0f8115e4bbc8a8fe6106e5b457fdc4513aebf66413b9,derived_output,,2026-11-20T23:18:55Z
+out/legacy_pages.log,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,derived_output,,2026-11-20T23:21:27Z
+out/legacy_products.csv,2807,ed2d4f5c37446f39d92b1f657d37084939b60e9bbc25d1cf3371d634fcd8b983,derived_output,,2026-11-20T23:49:49Z
+out/legacy_pt.json,2063,b5fa18f18d29b62ee829ec1447b968137e05eff249f0289d0379c7f07355357a,derived_output,,2026-11-20T23:49:53Z
+out/legacy_run.log,835,615c96d90eafc439b88eebc4d188ba249b6bd747ff592f9cfc1aae326f1c9da6,derived_output,,2026-11-20T23:17:26Z
+out/localisation_hpa.json,2589,f17c50e8d3a1415f60dcde4d1a94b288f03014d9f3d43695146f8a1972c8f52e,derived_output,,2026-11-16T09:13:02Z
+out/localisation_per_gene.csv,9116,c78579bcc03de3c8635711d1e47726799737e96f54342893e1567bf4e779e211,derived_output,,2026-11-16T09:13:02Z
+out/model_beta.json,459,3231982822694a104b853fd0510494ebe059a44d99bbb8dc39ec5dc98783c341,derived_output,,2026-11-25T08:44:25Z
+out/model_identity.csv,193490,af4e61b4f2ea8d299fb098ff125a172e03e34ca48886c5296af8317779d3ba6c,derived_output,,2026-11-25T08:44:25Z
+out/model_invariance.json,4911,74616eaa188bd0a064d17a29cbff813fa2927ea5d44cc2e10efb30b2b02e0856,derived_output,,2026-11-25T08:44:20Z
+out/model_sobol.json,1905,3e4e14eb00a22adb85f365f677e36b203ec7ab3f75e5812064768f9dc65be889,derived_output,,2026-11-25T08:44:24Z
+out/n2_test.json,1586,bff19014ac6a8a41512d8586ccd178b75a8dfc028971e2be5181d0c9760be069,derived_output,,2026-11-16T08:51:51Z
+out/network_null_ratio.json,847,636304f8177bab45e01fa4d75984a8a394dda425f4c793af9c305a32dbe9ff32,derived_output,,2026-11-16T09:20:03Z
+out/network_null_ratio_samples.npz,31016,01f6ed6a45c0b01d9d75ddc9c3937377e134aa6d705568a6f55378a0be4ee1fa,derived_output,,2026-11-16T09:20:03Z
+out/network_proximity.csv,2132,24ec166eaea5c0b42b5fc178fef56b5fbb056e277f1070364ed6212e6ce649c6,derived_output,,2026-11-26T06:03:30Z
+out/network_proximity.json,10034,2d2fcd96b9b320dbc5d1efe594c69601e41dbd45d1ff5b692d3c8f460ec734da,derived_output,,2026-11-26T06:03:30Z
+out/network_rwr.json,4479,9c9360e130eaa0433d7f8757e505847a9e3cbf7c743514b40553ef28346871f6,derived_output,,2026-11-16T09:15:23Z
+out/null_reproduction.json,1664,70e1b9a645f0e14c86d7204dc41bfe1c2654631b93a18f531718ab5c7868b888,derived_output,,2026-11-25T14:24:47Z
+out/perturbation_validation.json,16816,a31a1a23d512bcb6a3e54e2597c83f03a1f6b988cea553d29c0f13ba810e45d9,derived_output,,2026-11-16T09:11:34Z
+out/positive_control.csv,14271,f23dad056d6ea8e245777b8a7e28554b1401ead0855770adc0b76156c6ae280d,derived_output,,2026-11-25T14:20:52Z
+out/positive_control.json,63311,37e824db948101a5433090e5d4182337ea143d3e0b4cb16fd639bbda625af335,derived_output,,2026-11-25T14:20:52Z
+out/positive_control.log,10616,386b3d49ee79b3ade59848f1bec7a350a0d2d75b7452f71a7d8bde43d6744b06,derived_output,,2026-11-25T14:20:52Z
+out/positive_control_samples.npz,479147,50c63c3ba8dea73a270d37acc4aba846744233e55b1943a7c80f58c5afdbfb67,derived_output,,2026-11-25T14:20:52Z
+out/positive_control_summary.json,4935,eb6f75d87568f92c2146ad80c4fb12cea571f6214aa2690d7e90710ed4c9e812,derived_output,,2026-11-25T14:25:33Z
+out/power_network.json,958,460a5c5ab2511e52131b2ce0650d50e35edb23a617e90b51d95c5915ac947754,derived_output,,2026-11-16T09:19:04Z
+out/prediction_decidability.json,1041,fd9f11dac17e5f852265f1e72e82ae0791f267de99f23517a7b92c289c3d0482,derived_output,,2026-11-20T22:56:37Z
+out/prediction_rule.json,2967,5d124acba1a45671ffbba5fa3348efc17fb648a309609499d2b3c7fbe7326ac8,derived_output,,2026-11-20T23:07:11Z
+out/pull_meta.json,582,e14ecbdf0bea1405474b9a9e1844d63426f2a8ea1ff72a795809944d3c5fad77,derived_output,,2026-11-16T08:47:53Z
+out/refs_run.log,1845,53baef9efd76817d94fa0d8eb4559acbd9eba568379e64c18c600a4e8877602b,derived_output,,2026-11-16T10:00:25Z
+out/refs_verification.csv,3086,6b0a0568cf7e1c44685c6d7f3e5648fa7fcd047baf43669258b78573542c109c,derived_output,,2026-11-16T10:06:54Z
+out/signals.csv,83610,8e51cb280e3f83abe68a9b832935e1004279585809eb7461b9d47553a84a868c,derived_output,,2026-11-16T08:51:21Z
+out/specification_curve.csv,1210,b95fd8440a645c02e3f2f4d0c45aca02aa7327cdd60133ace5e3096e5ed5d835,derived_output,,2026-11-25T08:48:26Z
+out/strata.json,7327,2803de8e67a7d75a2a7def382350d3ac5c08c06ba764206faa04112749c22fea,derived_output,,2026-11-25T05:46:47Z
+out/table1_products.csv,6920,d1f5680c632fb37f97ad4b99ad9423831e7c14f83ad7d6722562b426414a4de4,derived_output,,2026-11-16T08:51:51Z
+out/table2_icans_share.csv,1421,140da967ba2a87f979879862aeb8ea0d36512f357483243efa69b867cf5be981,derived_output,,2026-11-16T09:19:49Z

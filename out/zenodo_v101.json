@@ -1,0 +1,32 @@
+{
+  "record_id": "24551266",
+  "concept_id": "",
+  "doi": null,
+  "status": "draft",
+  "version": "1.0.1",
+  "publication_date": "2026-11-26",
+  "title": "The ICANS/CRS ratio tracks costimulation within CD19 and does not hold in BCMA: code, frozen inputs and derived results",
+  "creators": [],
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "keywords": [
+    "ICANS",
+    "cytokine release syndrome",
+    "chimeric antigen receptor T cells",
+    "bispecific T-cell engagers",
+    "pharmacovigilance",
+    "FAERS",
+    "network medicine",
+    "reproducibility"
+  ],
+  "files": [
+    {
+      "key": "deposit_jtm_icans_v1.0.1.zip",
+      "size": 17201812,
+      "checksum": "md5:7643f461b0ee74c00bdd25140397bdc3"
+    }
+  ],
+  "url": "https://zenodo.org/uploads/24551266",
+  "supersedes": "24536543"
+}

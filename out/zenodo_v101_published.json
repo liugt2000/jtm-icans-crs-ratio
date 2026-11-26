@@ -1,0 +1,15 @@
+{
+  "record_id": "24552287",
+  "doi": null,
+  "status": "published",
+  "version": "1.0.2",
+  "url": "https://zenodo.org/records/24552287",
+  "concept_doi": "10.5281/zenodo.24536542",
+  "files": [
+    {
+      "key": "deposit_jtm_icans_v1.0.2.zip",
+      "size": 18064950,
+      "checksum": "md5:8806485b825a730a71cde2259b104921"
+    }
+  ]
+}

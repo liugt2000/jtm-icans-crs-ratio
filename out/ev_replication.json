@@ -1,0 +1,297 @@
+{
+ "n_products_queried": 13,
+ "missing": [],
+ "n_analysable": 13,
+ "min_reports": 20,
+ "totals": {
+  "n_products": 13,
+  "total_icsr": 34277,
+  "phenotype_reports": 18625,
+  "icans": 4801,
+  "crs": 13824,
+  "n_lower_in_ev": 11,
+  "cart_41bb_mean_drop": 0.04917851305223306,
+  "cart_cd28_mean_delta": 0.00514369713958876,
+  "cd28_mean_R": 0.3661436971395888,
+  "41bb_mean_R": 0.22522148694776695
+ },
+ "table": [
+  {
+   "product": "brexu-cel",
+   "modality": "CAR-T",
+   "costimulation": "CD28",
+   "total_icsr": 1371,
+   "icans": 536,
+   "crs": 800,
+   "phenotype_reports": 1336,
+   "R_ev": 0.40119760479041916,
+   "ci": [
+    0.37523460989700824,
+    0.4277271522861322
+   ],
+   "R_faers": 0.39,
+   "delta_ev_minus_faers": 0.011197604790419147,
+   "n_neurotox": 125,
+   "R_ev_legacy": 0.13513513513513514,
+   "analysable": true
+  },
+  {
+   "product": "axi-cel",
+   "modality": "CAR-T",
+   "costimulation": "CD28",
+   "total_icsr": 7730,
+   "icans": 2312,
+   "crs": 4671,
+   "phenotype_reports": 6983,
+   "R_ev": 0.3310897894887584,
+   "ci": [
+    0.320147468123847,
+    0.34221784903648034
+   ],
+   "R_faers": 0.332,
+   "delta_ev_minus_faers": -0.000910210511241627,
+   "n_neurotox": 970,
+   "R_ev_legacy": 0.1719553270696685,
+   "analysable": true
+  },
+  {
+   "product": "liso-cel",
+   "modality": "CAR-T",
+   "costimulation": "4-1BB",
+   "total_icsr": 562,
+   "icans": 110,
+   "crs": 305,
+   "phenotype_reports": 415,
+   "R_ev": 0.26506024096385544,
+   "ci": [
+    0.22489118745053785,
+    0.3095388554849219
+   ],
+   "R_faers": 0.318,
+   "delta_ev_minus_faers": -0.05293975903614456,
+   "n_neurotox": 26,
+   "R_ev_legacy": 0.07854984894259819,
+   "analysable": true
+  },
+  {
+   "product": "obe-cel",
+   "modality": "CAR-T",
+   "costimulation": "4-1BB",
+   "total_icsr": 97,
+   "icans": 8,
+   "crs": 23,
+   "phenotype_reports": 31,
+   "R_ev": 0.25806451612903225,
+   "ci": [
+    0.13701705906393744,
+    0.43246135809433794
+   ],
+   "R_faers": 0.32,
+   "delta_ev_minus_faers": -0.061935483870967756,
+   "n_neurotox": 3,
+   "R_ev_legacy": 0.11538461538461539,
+   "analysable": true
+  },
+  {
+   "product": "cilta-cel",
+   "modality": "CAR-T",
+   "costimulation": "4-1BB",
+   "total_icsr": 2539,
+   "icans": 166,
+   "crs": 518,
+   "phenotype_reports": 684,
+   "R_ev": 0.24269005847953215,
+   "ci": [
+    0.21205677303978518,
+    0.2761973944198139
+   ],
+   "R_faers": 0.295,
+   "delta_ev_minus_faers": -0.052309941520467834,
+   "n_neurotox": 130,
+   "R_ev_legacy": 0.2006172839506173,
+   "analysable": true
+  },
+  {
+   "product": "talquetamab",
+   "modality": "BiTE",
+   "costimulation": null,
+   "total_icsr": 1072,
+   "icans": 88,
+   "crs": 301,
+   "phenotype_reports": 389,
+   "R_ev": 0.2262210796915167,
+   "ci": [
+    0.18743898658491007,
+    0.270357548843342
+   ],
+   "R_faers": 0.256,
+   "delta_ev_minus_faers": -0.02977892030848331,
+   "n_neurotox": 14,
+   "R_ev_legacy": 0.044444444444444446,
+   "analysable": true
+  },
+  {
+   "product": "teclistamab",
+   "modality": "BiTE",
+   "costimulation": null,
+   "total_icsr": 3029,
+   "icans": 179,
+   "crs": 619,
+   "phenotype_reports": 798,
+   "R_ev": 0.22431077694235588,
+   "ci": [
+    0.19672962489361354,
+    0.2545334706226388
+   ],
+   "R_faers": 0.273,
+   "delta_ev_minus_faers": -0.04868922305764414,
+   "n_neurotox": 14,
+   "R_ev_legacy": 0.022116903633491312,
+   "analysable": true
+  },
+  {
+   "product": "tisa-cel",
+   "modality": "CAR-T",
+   "costimulation": "4-1BB",
+   "total_icsr": 3344,
+   "icans": 432,
+   "crs": 1684,
+   "phenotype_reports": 2116,
+   "R_ev": 0.20415879017013233,
+   "ci": [
+    0.18752745794894338,
+    0.2218623363725103
+   ],
+   "R_faers": 0.221,
+   "delta_ev_minus_faers": -0.01684120982986767,
+   "n_neurotox": 167,
+   "R_ev_legacy": 0.0902215018908698,
+   "analysable": true
+  },
+  {
+   "product": "epcoritamab",
+   "modality": "BiTE",
+   "costimulation": null,
+   "total_icsr": 2719,
+   "icans": 291,
+   "crs": 1178,
+   "phenotype_reports": 1469,
+   "R_ev": 0.1980939414567733,
+   "ci": [
+    0.17851131841632187,
+    0.21925142468963202
+   ],
+   "R_faers": 0.163,
+   "delta_ev_minus_faers": 0.0350939414567733,
+   "n_neurotox": 11,
+   "R_ev_legacy": 0.009251471825063078,
+   "analysable": true
+  },
+  {
+   "product": "blina",
+   "modality": "BiTE",
+   "costimulation": null,
+   "total_icsr": 6740,
+   "icans": 305,
+   "crs": 1521,
+   "phenotype_reports": 1826,
+   "R_ev": 0.16703176341730558,
+   "ci": [
+    0.15062597422184007,
+    0.18483557948910592
+   ],
+   "R_faers": 0.199,
+   "delta_ev_minus_faers": -0.03196823658269443,
+   "n_neurotox": 484,
+   "R_ev_legacy": 0.24139650872817955,
+   "analysable": true
+  },
+  {
+   "product": "elranatamab",
+   "modality": "BiTE",
+   "costimulation": null,
+   "total_icsr": 2411,
+   "icans": 155,
+   "crs": 836,
+   "phenotype_reports": 991,
+   "R_ev": 0.15640766902119072,
+   "ci": [
+    0.13512363528705298,
+    0.18034518242057282
+   ],
+   "R_faers": 0.246,
+   "delta_ev_minus_faers": -0.08959233097880928,
+   "n_neurotox": 14,
+   "R_ev_legacy": 0.01647058823529412,
+   "analysable": true
+  },
+  {
+   "product": "ide-cel",
+   "modality": "CAR-T",
+   "costimulation": "4-1BB",
+   "total_icsr": 1005,
+   "icans": 126,
+   "crs": 681,
+   "phenotype_reports": 807,
+   "R_ev": 0.15613382899628253,
+   "ci": [
+    0.1327256813235178,
+    0.18280019125926256
+   ],
+   "R_faers": 0.218,
+   "delta_ev_minus_faers": -0.06186617100371747,
+   "n_neurotox": 31,
+   "R_ev_legacy": 0.04353932584269663,
+   "analysable": true
+  },
+  {
+   "product": "glofitamab",
+   "modality": "BiTE",
+   "costimulation": null,
+   "total_icsr": 1658,
+   "icans": 93,
+   "crs": 687,
+   "phenotype_reports": 780,
+   "R_ev": 0.11923076923076924,
+   "ci": [
+    0.0983341607625443,
+    0.14385953374592758
+   ],
+   "R_faers": 0.15,
+   "delta_ev_minus_faers": -0.030769230769230757,
+   "n_neurotox": 7,
+   "R_ev_legacy": 0.010086455331412104,
+   "analysable": true
+  }
+ ],
+ "spearman_faers_vs_ev": 0.9230769230769231,
+ "n_pairs": 13,
+ "pairwise_sign_concordance": {
+  "concordant": 70,
+  "pairs": 78,
+  "fraction": 0.8974358974358975
+ },
+ "costimulation_ev": {
+  "diff": 0.14092221019182183,
+  "n_assignments": 21,
+  "p_one_sided": 0.047619047619047616,
+  "p_two_sided": 0.09523809523809523,
+  "min_p_one_sided": 0.047619047619047616,
+  "attains_minimum": true
+ },
+ "costimulation_ev_without_obe": {
+  "diff": 0.14913296748713817,
+  "n_assignments": 15,
+  "p_one_sided": 0.06666666666666667,
+  "p_two_sided": 0.13333333333333333,
+  "min_p_one_sided": 0.06666666666666667,
+  "attains_minimum": true
+ },
+ "costimulation_faers_reference": {
+  "CD28_mean": 0.361,
+  "4-1BB_mean": 0.2744,
+  "diff": 0.08660000000000001
+ },
+ "cart_products_in_ev": 7,
+ "median_abs_delta": 0.0350939414567733
+}

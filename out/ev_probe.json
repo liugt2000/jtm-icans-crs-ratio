@@ -1,0 +1,65 @@
+[
+ {
+  "url": "https://www.adrreports.eu/en/index.html",
+  "status": 200,
+  "ctype": "text/html",
+  "bytes": 11402,
+  "head": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r <html xmlns=\"http://www.w3.org/1999/xhtml\">\r <head>\r <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r <title>European database of suspected adverse drug re"
+ },
+ {
+  "url": "https://www.adrreports.eu/",
+  "status": 200,
+  "ctype": "text/html",
+  "bytes": 9956,
+  "head": "﻿<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r <html xmlns=\"http://www.w3.org/1999/xhtml\">\r <head>\r <meta http-equiv=\"Content-Type\" content=\"text/html;UTF-8\" />\r <!-- TemplateBeginEditable name=\"title\" -->\r <title>Europea"
+ },
+ {
+  "url": "https://api.adrreports.eu/",
+  "status": 0,
+  "ctype": "",
+  "bytes": 0,
+  "head": "URLError: <urlopen error Tunnel connection failed: 502 Bad Gateway>"
+ },
+ {
+  "url": "https://www.adrreports.eu/api/",
+  "status": 404,
+  "ctype": "",
+  "bytes": 0,
+  "head": "HTTPError Not Found"
+ },
+ {
+  "url": "https://www.adrreports.eu/api/v1/substances",
+  "status": 404,
+  "ctype": "",
+  "bytes": 0,
+  "head": "HTTPError Not Found"
+ },
+ {
+  "url": "https://www.adrreports.eu/en/search_subst.html",
+  "status": 200,
+  "ctype": "text/html",
+  "bytes": 10274,
+  "head": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r <html xmlns=\"http://www.w3.org/1999/xhtml\">\r <head>\r <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r <title>European database of suspected adverse drug re"
+ },
+ {
+  "url": "https://www.adrreports.eu/en/rest/search",
+  "status": 404,
+  "ctype": "",
+  "bytes": 0,
+  "head": "HTTPError Not Found"
+ },
+ {
+  "url": "https://www.pmda.go.jp/safety/info-services/drugs/adr-info/suspected-adr/0003.html",
+  "status": 200,
+  "ctype": "text/html",
+  "bytes": 114237,
+  "head": "<!DOCTYPE html>\r <html lang=\"ja\">\r <head>\r   <meta charset=\"UTF-8\">\r   <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r   <meta name=\"viewport\" content=\"width=device-width initial-scale=1.0\">\r   <meta name=\"format-detection\" content=\"telephone=no\">\r   <title>医薬品副作用データベー�"
+ },
+ {
+  "url": "https://vigiaccess.org/",
+  "status": 200,
+  "ctype": "text/html; charset=utf-8",
+  "bytes": 804,
+  "head": "<!DOCTYPE html>\r <html class=\"has-navbar-fixed-top is-unselectable\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><meta name=\"color-scheme\" content=\"only light\"><title>VigiAccess</title><link rel=\"icon\" type=\"image/png\" href=\"/assets/favicon-32.png"
+ }
+]

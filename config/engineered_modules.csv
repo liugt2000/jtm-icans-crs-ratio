@@ -1,0 +1,46 @@
+﻿module,gene,role,provenance
+COSTIM_CD28,CD28,costimulatory receptor,CD28 signalosome (proximal)
+COSTIM_CD28,CD80,ligand,CD28 signalosome (proximal)
+COSTIM_CD28,CD86,ligand,CD28 signalosome (proximal)
+COSTIM_CD28,LCK,src kinase,CD28 signalosome (proximal)
+COSTIM_CD28,FYN,src kinase,CD28 signalosome (proximal)
+COSTIM_CD28,ZAP70,syk kinase,CD28 signalosome (proximal)
+COSTIM_CD28,LAT,adaptor,CD28 signalosome (proximal)
+COSTIM_CD28,LCP2,adaptor,CD28 signalosome (proximal)
+COSTIM_CD28,GRAP2,adaptor,CD28 signalosome (proximal)
+COSTIM_CD28,GRB2,adaptor,CD28 signalosome (proximal)
+COSTIM_CD28,VAV1,GEF,CD28 signalosome (proximal)
+COSTIM_CD28,PLCG1,phospholipase,CD28 signalosome (proximal)
+COSTIM_CD28,PIK3R1,PI3K regulatory,CD28 signalosome (proximal)
+COSTIM_CD28,PIK3CA,PI3K catalytic,CD28 signalosome (proximal)
+COSTIM_CD28,PIK3CD,PI3K catalytic,CD28 signalosome (proximal)
+COSTIM_CD28,PDPK1,PI3K effector,CD28 signalosome (proximal)
+COSTIM_CD28,AKT1,PI3K effector,CD28 signalosome (proximal)
+COSTIM_CD28,PRKCQ,PKC-theta,CD28 signalosome (proximal)
+COSTIM_CD28,CARD11,CBM complex,CD28 signalosome (proximal)
+COSTIM_CD28,BCL10,CBM complex,CD28 signalosome (proximal)
+COSTIM_CD28,MALT1,CBM complex,CD28 signalosome (proximal)
+COSTIM_CD28,NFKB1,NF-kB,CD28 signalosome (proximal)
+COSTIM_CD28,RELA,NF-kB,CD28 signalosome (proximal)
+COSTIM_CD28,NFATC1,calcineurin-NFAT,CD28 signalosome (proximal)
+COSTIM_CD28,NFATC2,calcineurin-NFAT,CD28 signalosome (proximal)
+COSTIM_CD28,IL2,effector cytokine,CD28 signalosome (proximal)
+COSTIM_41BB,TNFRSF9,4-1BB receptor,TRAF-dependent 4-1BB signalosome
+COSTIM_41BB,TNFSF9,4-1BB ligand,TRAF-dependent 4-1BB signalosome
+COSTIM_41BB,TRAF1,TRAF,TRAF-dependent 4-1BB signalosome
+COSTIM_41BB,TRAF2,TRAF,TRAF-dependent 4-1BB signalosome
+COSTIM_41BB,TRAF3,TRAF,TRAF-dependent 4-1BB signalosome
+COSTIM_41BB,MAP3K7,TAK1,TRAF-dependent 4-1BB signalosome
+COSTIM_41BB,TAB1,TAK1 adaptor,TRAF-dependent 4-1BB signalosome
+COSTIM_41BB,TAB2,TAK1 adaptor,TRAF-dependent 4-1BB signalosome
+COSTIM_41BB,NFKB1,NF-kB,TRAF-dependent 4-1BB signalosome
+COSTIM_41BB,RELA,NF-kB,TRAF-dependent 4-1BB signalosome
+COSTIM_41BB,RELB,NF-kB,TRAF-dependent 4-1BB signalosome
+COSTIM_41BB,NFKB2,NF-kB,TRAF-dependent 4-1BB signalosome
+COSTIM_41BB,MAP3K14,NIK,TRAF-dependent 4-1BB signalosome
+COSTIM_41BB,BIRC2,cIAP,TRAF-dependent 4-1BB signalosome
+COSTIM_41BB,BIRC3,cIAP,TRAF-dependent 4-1BB signalosome
+COSTIM_41BB,MAPK8,JNK,TRAF-dependent 4-1BB signalosome
+COSTIM_41BB,MAPK9,JNK,TRAF-dependent 4-1BB signalosome
+COSTIM_41BB,MAPK14,p38,TRAF-dependent 4-1BB signalosome
+COSTIM_41BB,IL2,effector cytokine,TRAF-dependent 4-1BB signalosome

@@ -1,0 +1,99 @@
+{
+  "dedup_reports": 21937,
+  "window_reports": 20732,
+  "serious_flag_all": {
+    "1": 21659,
+    "2": 278
+  },
+  "serious_flag_window": {
+    "1": 20466,
+    "2": 266
+  },
+  "serious_share_window": 0.987169592899865,
+  "acuity_terms": {
+    "icans": [
+      "Encephalopathy",
+      "Depressed level of consciousness",
+      "Coma",
+      "Brain oedema",
+      "Cerebral oedema",
+      "Seizure",
+      "Status epilepticus",
+      "Hemiparesis",
+      "Paraparesis",
+      "Quadriparesis",
+      "Quadriplegia",
+      "Intracranial pressure increased"
+    ],
+    "crs": [
+      "Shock",
+      "Septic shock",
+      "Distributive shock",
+      "Circulatory collapse",
+      "Respiratory failure",
+      "Acute respiratory failure",
+      "Capillary leak syndrome",
+      "Haemophagocytic lymphohistiocytosis",
+      "Macrophage activation syndrome",
+      "Multiple organ dysfunction syndrome"
+    ]
+  },
+  "min_pheno": 20,
+  "min_hi": 20,
+  "n_products": 14,
+  "report_classes_in_analysed_set": {
+    "icans_only": 1703,
+    "crs_only": 10623,
+    "both": 3794,
+    "n": 16120,
+    "n_icans_reports": 5497,
+    "n_crs_reports": 14417,
+    "R_margin": 0.2760369589233705,
+    "patient_share_icans": 0.3410049627791563,
+    "dual_share_of_icans": 0.6901946516281608
+  },
+  "corpus_classes_window": {
+    "icans_only": 1857,
+    "crs_only": 14805,
+    "both": 4070,
+    "n": 20732,
+    "dual_share_of_icans": 0.68668803779315
+  },
+  "primary_contrast_check": {
+    "cd28": 0.3610963279928351,
+    "bb": 0.2744657600849491,
+    "delta": 0.08663056790788598,
+    "p_one": 0.047619047619047616,
+    "p_two": 0.09523809523809523,
+    "min_p_one": 0.047619047619047616,
+    "n_assign": 21,
+    "n_cd28": 2,
+    "n_bb": 5
+  },
+  "contrast_share_icans_hi": {
+    "cd28": 0.12058666064459239,
+    "bb": 0.06253624550121752,
+    "delta": 0.058050415143374876,
+    "p_one": 0.09523809523809523,
+    "p_two": 0.19047619047619047,
+    "min_p_one": 0.047619047619047616,
+    "n_assign": 21,
+    "n_cd28": 2,
+    "n_bb": 5
+  },
+  "contrast_R_hi": {
+    "cd28": 0.47733035498671816,
+    "bb": 0.2306531507334162,
+    "delta": 0.24667720425330197,
+    "p_one": 0.06666666666666667,
+    "p_two": 0.13333333333333333,
+    "min_p_one": 0.06666666666666667,
+    "n_assign": 15,
+    "n_cd28": 2,
+    "n_bb": 4
+  },
+  "share_icans_hi_pooled": 0.08724235963041933,
+  "n_icans_pooled": 5628,
+  "n_icans_hi_pooled": 491,
+  "share_icans_serious_pooled": 0.9898720682302772
+}

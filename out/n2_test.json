@@ -1,0 +1,58 @@
+{
+  "n_cart_products": 7,
+  "cd28": [
+    "brexu-cel",
+    "axi-cel"
+  ],
+  "four_1bb": [
+    "liso-cel",
+    "obe-cel",
+    "cilta-cel",
+    "ide-cel",
+    "tisa-cel"
+  ],
+  "log2_icans_over_crs": {
+    "observed_diff": 0.6002847042009305,
+    "p_two_sided": 0.09523809523809523,
+    "min_attainable_p": 0.047619047619047616,
+    "n_permutations": 21,
+    "null_sd": 0.37255346314460436,
+    "interpretation": "directional check only; exact p is floored at min_attainable_p",
+    "mean_cd28": 0.8819969286119096,
+    "mean_4_1bb": 0.28171222441097915
+  },
+  "icans_share": {
+    "observed_diff": 0.1192645461729114,
+    "p_two_sided": 0.047619047619047616,
+    "min_attainable_p": 0.047619047619047616,
+    "n_permutations": 21,
+    "null_sd": 0.061543179468094275,
+    "interpretation": "directional check only; exact p is floored at min_attainable_p",
+    "mean_cd28": 0.2458186989957355,
+    "mean_4_1bb": 0.1265541528228241
+  },
+  "loo_sign_stable": 7,
+  "loo_n": 7,
+  "loo_diffs": [
+    0.3669627443195868,
+    0.8336066640822741,
+    0.6906021210693509,
+    0.6571917732692591,
+    0.6563570478557816,
+    0.5079159824405375,
+    0.4893565963697231
+  ],
+  "negctrl": {
+    "scope": "T-cell-engaging products only (comparators excluded by design)",
+    "n_products": 15,
+    "n_products_with_neg_eb05_gt_icans": 1,
+    "detail": [
+      {
+        "substance": "AFAMITRESGENE AUTOLEUCEL",
+        "max_neg_pt": "Rash",
+        "max_neg_eb05": 0.7320391997876592,
+        "eb05_icans": 0.05649037397927267
+      }
+    ]
+  }
+}

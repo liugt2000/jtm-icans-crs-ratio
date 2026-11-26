@@ -1,0 +1,53 @@
+{
+  "pairs": [
+    {
+      "source": "COSTIM_CD28",
+      "target": "CNS_VASCULAR",
+      "n_in_graph": 26,
+      "mass_now": 0.007546631015805572,
+      "mass_published": 0.007547,
+      "fold_now": 0.691090112250435,
+      "fold_published": 0.681,
+      "p_now": 0.448,
+      "p_published": 0.4615,
+      "null_mean_now": 0.010919894355355569,
+      "null_mean_published": 0.011075,
+      "se_rel_fold": 0.01480779143714327
+    },
+    {
+      "source": "COSTIM_CD28",
+      "target": "MYELOID_CYTOKINE",
+      "n_in_graph": 26,
+      "mass_now": 0.04771730261869425,
+      "mass_published": 0.047717,
+      "fold_now": 2.073427114350124,
+      "fold_published": 2.04,
+      "p_now": 0.018,
+      "p_published": 0.0195,
+      "null_mean_now": 0.02301373522533987,
+      "null_mean_published": 0.023395,
+      "se_rel_fold": 0.009413056989351338
+    },
+    {
+      "source": "COSTIM_41BB",
+      "target": "MYELOID_CYTOKINE",
+      "n_in_graph": 19,
+      "mass_now": 0.05918827736308152,
+      "mass_published": 0.059188,
+      "fold_now": 2.6089023659042074,
+      "fold_published": 2.565,
+      "p_now": 0.0085,
+      "p_published": 0.008,
+      "null_mean_now": 0.022687041928672456,
+      "null_mean_published": 0.023075,
+      "se_rel_fold": 0.010969071567667297
+    }
+  ],
+  "verdict": {
+    "observed_mass_matches": true,
+    "max_relative_fold_difference": 0.01711593212639668,
+    "within_monte_carlo": true,
+    "n_perm": 2000,
+    "note": "observed masses are deterministic and must match the published values exactly; folds carry 2,000-draw sampling error and are compared only for agreement."
+  }
+}

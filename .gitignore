@@ -1,0 +1,23 @@
+# The archive lives on Zenodo; GitHub carries the code and the derived outputs.
+# DOI 10.5281/zenodo.24536543
+deposit/
+deposit_*.zip
+
+# 104 MB of frozen FAERS case-level extracts belong in the archive, not in git.
+data/*.jsonl
+data/*.jsonl.gz
+data/*.gz
+data/*.zip
+data/*.tsv
+
+# small, freely redistributable inputs stay
+!data/reactome_pathways_v98_20261125.gmt
+
+# housekeeping
+cache/
+*.pyc
+__pycache__/
+.DS_Store
+
+# rebuilt from manuscript/ by src/95_export_submission.py; binaries do not belong in git
+submission_package/

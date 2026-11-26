@@ -1,0 +1,38 @@
+event_label,tier,pt
+ICANS,primary,Immune effector cell-associated neurotoxicity syndrome
+ICANS,primary,Encephalopathy
+ICANS,primary,Depressed level of consciousness
+ICANS,wide,Delirium
+ICANS,wide,Confusional state
+ICANS,wide,Aphasia
+ICANS,wide,Apraxia
+ICANS,wide,Agraphia
+ICANS,wide,Acalculia
+ICANS,wide,Dysarthria
+ICANS,wide,Seizure
+ICANS,wide,Status epilepticus
+ICANS,wide,Somnolence
+ICANS,wide,Tremor
+ICANS,wide,Ataxia
+ICANS,wide,Brain oedema
+ICANS,wide,Cognitive disorder
+ICANS,wide,Memory impairment
+CRS,primary,Cytokine release syndrome
+CRS,primary,Cytokine storm
+CRS,severe,Haemophagocytic lymphohistiocytosis
+CRS,severe,Macrophage activation syndrome
+CRS,severe,Capillary leak syndrome
+CRS,wide,Hypotension
+CRS,wide,Hypoxia
+CRS,wide,Pyrexia
+CRS,wide,Chills
+CRS,wide,Tachycardia
+CRS,wide,Multiple organ dysfunction syndrome
+NEGCTRL,neg,Alopecia
+NEGCTRL,neg,Rash
+NEGCTRL,neg,Pruritus
+NEGCTRL,neg,Neutropenia
+NEGCTRL,neg,Thrombocytopenia
+NEGCTRL,neg,Diarrhoea
+NEGCTRL,neg,Constipation
+NEGCTRL,neg,Oedema peripheral

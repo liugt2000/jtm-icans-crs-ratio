@@ -1,0 +1,175 @@
+{
+  "params": {
+    "alpha": 0.7,
+    "n_perm": 2000,
+    "n_subsets": 1000,
+    "seed": 20261116,
+    "n_nodes": 10156,
+    "mean_degree": 15.666207168176447,
+    "interactome_sha256_prefix": "2bb2bbfb88472247"
+  },
+  "proximity": {
+    "CNS_VASCULAR": {
+      "n_in_graph": 36,
+      "to_MYELOID_CYTOKINE": {
+        "mass": 0.022796,
+        "null_mean": 0.019375,
+        "null_sd": 0.00659,
+        "z": 0.519,
+        "fold": 1.177,
+        "p_enriched": 0.286,
+        "p_depleted": 0.714
+      },
+      "to_HEPATOCYTE_NEGCTRL": {
+        "mass": 0.002439,
+        "null_mean": 0.002108,
+        "null_sd": 0.002613,
+        "z": 0.127,
+        "fold": 1.157,
+        "p_enriched": 0.1565,
+        "p_depleted": 0.8435
+      }
+    },
+    "MYELOID_CYTOKINE": {
+      "n_in_graph": 35,
+      "to_CNS_VASCULAR": {
+        "mass": 0.006988,
+        "null_mean": 0.010865,
+        "null_sd": 0.006215,
+        "z": -0.624,
+        "fold": 0.643,
+        "p_enriched": 0.5825,
+        "p_depleted": 0.4175
+      },
+      "to_HEPATOCYTE_NEGCTRL": {
+        "mass": 0.001569,
+        "null_mean": 0.002168,
+        "null_sd": 0.00295,
+        "z": -0.203,
+        "fold": 0.724,
+        "p_enriched": 0.2645,
+        "p_depleted": 0.7355
+      }
+    },
+    "HEPATOCYTE_NEGCTRL": {
+      "n_in_graph": 15,
+      "to_CNS_VASCULAR": {
+        "mass": 0.009662,
+        "null_mean": 0.007574,
+        "null_sd": 0.006404,
+        "z": 0.326,
+        "fold": 1.276,
+        "p_enriched": 0.1475,
+        "p_depleted": 0.8525
+      },
+      "to_MYELOID_CYTOKINE": {
+        "mass": 0.018365,
+        "null_mean": 0.015998,
+        "null_sd": 0.007969,
+        "z": 0.297,
+        "fold": 1.148,
+        "p_enriched": 0.23,
+        "p_depleted": 0.77
+      }
+    },
+    "COSTIM_CD28": {
+      "n_in_graph": 26,
+      "to_CNS_VASCULAR": {
+        "mass": 0.007547,
+        "null_mean": 0.011075,
+        "null_sd": 0.007357,
+        "z": -0.48,
+        "fold": 0.681,
+        "p_enriched": 0.4615,
+        "p_depleted": 0.5385
+      },
+      "to_MYELOID_CYTOKINE": {
+        "mass": 0.047717,
+        "null_mean": 0.023395,
+        "null_sd": 0.009731,
+        "z": 2.499,
+        "fold": 2.04,
+        "p_enriched": 0.0195,
+        "p_depleted": 0.9805
+      },
+      "to_HEPATOCYTE_NEGCTRL": {
+        "mass": 0.000807,
+        "null_mean": 0.002185,
+        "null_sd": 0.003406,
+        "z": -0.405,
+        "fold": 0.369,
+        "p_enriched": 0.8855,
+        "p_depleted": 0.1145
+      }
+    },
+    "COSTIM_41BB": {
+      "n_in_graph": 19,
+      "to_CNS_VASCULAR": {
+        "mass": 0.005608,
+        "null_mean": 0.010831,
+        "null_sd": 0.008179,
+        "z": -0.639,
+        "fold": 0.518,
+        "p_enriched": 0.801,
+        "p_depleted": 0.199
+      },
+      "to_MYELOID_CYTOKINE": {
+        "mass": 0.059188,
+        "null_mean": 0.023075,
+        "null_sd": 0.011639,
+        "z": 3.103,
+        "fold": 2.565,
+        "p_enriched": 0.008,
+        "p_depleted": 0.992
+      },
+      "to_HEPATOCYTE_NEGCTRL": {
+        "mass": 0.000896,
+        "null_mean": 0.002309,
+        "null_sd": 0.004424,
+        "z": -0.319,
+        "fold": 0.388,
+        "p_enriched": 0.748,
+        "p_depleted": 0.252
+      }
+    }
+  },
+  "costim_contrast": {
+    "CNS_VASCULAR": {
+      "mass_41BB": 0.005608,
+      "mass_CD28_full26": 0.007547,
+      "mass_CD28_sizematched_mean": 0.007544,
+      "ci95_sizematched": [
+        0.006799,
+        0.0083
+      ],
+      "ratio_sizematched_CD28_over_41BB": 1.345,
+      "frac_subsets_exceeding_41BB": 1.0,
+      "ratio_size_confounded": 1.346
+    },
+    "MYELOID_CYTOKINE": {
+      "mass_41BB": 0.059188,
+      "mass_CD28_full26": 0.047717,
+      "mass_CD28_sizematched_mean": 0.048048,
+      "ci95_sizematched": [
+        0.022798,
+        0.058894
+      ],
+      "ratio_sizematched_CD28_over_41BB": 0.812,
+      "frac_subsets_exceeding_41BB": 0.014,
+      "ratio_size_confounded": 0.806
+    },
+    "HEPATOCYTE_NEGCTRL": {
+      "mass_41BB": 0.000896,
+      "mass_CD28_full26": 0.000807,
+      "mass_CD28_sizematched_mean": 0.000807,
+      "ci95_sizematched": [
+        0.000656,
+        0.000886
+      ],
+      "ratio_sizematched_CD28_over_41BB": 0.901,
+      "frac_subsets_exceeding_41BB": 0.002,
+      "ratio_size_confounded": 0.9
+    }
+  },
+  "size_matched_k": 19
+}

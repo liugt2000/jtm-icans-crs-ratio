@@ -1,0 +1,94 @@
+{
+  "n_products": 7,
+  "n_cd28": 2,
+  "n_41bb": 5,
+  "mae_class_mean": 0.0559,
+  "mae_class_blind": 0.0545,
+  "mae_improvement": -0.0014,
+  "relative_improvement_pct": -2.6,
+  "median_abs_error_class_mean": 0.0579,
+  "max_abs_error": 0.071,
+  "n_products_within_0.05": 1,
+  "null": "every C(7,2)=21 assignment of two products to the CD28 label",
+  "n_null_assignments": 21,
+  "p_exact_class_better_than_random_grouping": 0.23809523809523808,
+  "min_attainable_p": 0.0476,
+  "null_mae_quantiles": {
+    "q05": 0.0519,
+    "q50": 0.0619,
+    "q95": 0.077
+  },
+  "detail": [
+    {
+      "product": "brexu-cel",
+      "class": "CD28",
+      "n_pheno": 1546,
+      "R_observed": 0.39,
+      "R_predicted_LODO": 0.3322,
+      "error": 0.0579,
+      "abs_error": 0.0579,
+      "n_donors": 1
+    },
+    {
+      "product": "axi-cel",
+      "class": "CD28",
+      "n_pheno": 6500,
+      "R_observed": 0.3322,
+      "R_predicted_LODO": 0.39,
+      "error": -0.0579,
+      "abs_error": 0.0579,
+      "n_donors": 1
+    },
+    {
+      "product": "obe-cel",
+      "class": "4-1BB",
+      "n_pheno": 25,
+      "R_observed": 0.32,
+      "R_predicted_LODO": 0.2631,
+      "error": 0.0569,
+      "abs_error": 0.0569,
+      "n_donors": 4
+    },
+    {
+      "product": "liso-cel",
+      "class": "4-1BB",
+      "n_pheno": 531,
+      "R_observed": 0.3183,
+      "R_predicted_LODO": 0.2635,
+      "error": 0.0548,
+      "abs_error": 0.0548,
+      "n_donors": 4
+    },
+    {
+      "product": "cilta-cel",
+      "class": "4-1BB",
+      "n_pheno": 1310,
+      "R_observed": 0.2954,
+      "R_predicted_LODO": 0.2692,
+      "error": 0.0262,
+      "abs_error": 0.0262,
+      "n_donors": 4
+    },
+    {
+      "product": "tisa-cel",
+      "class": "4-1BB",
+      "n_pheno": 2104,
+      "R_observed": 0.221,
+      "R_predicted_LODO": 0.2878,
+      "error": -0.0668,
+      "abs_error": 0.0668,
+      "n_donors": 4
+    },
+    {
+      "product": "ide-cel",
+      "class": "4-1BB",
+      "n_pheno": 896,
+      "R_observed": 0.2176,
+      "R_predicted_LODO": 0.2887,
+      "error": -0.071,
+      "abs_error": 0.071,
+      "n_donors": 4
+    }
+  ],
+  "caveat": "the CD28 class contains two products, so its leave-one-out prediction rests on a single donor and its error is not an independent estimate of generalisation within that class."
+}

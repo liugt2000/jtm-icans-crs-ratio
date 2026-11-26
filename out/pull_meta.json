@@ -1,0 +1,16 @@
+{
+  "N_total": 21054159,
+  "n_substances": 31,
+  "n_events": 16,
+  "tiers": [
+    "neg",
+    "primary",
+    "severe"
+  ],
+  "cache_sha256": "5b73b8d0812bd312456747d7531bfda449d1584da5dd5b020219c32bdc6c4e4a",
+  "pulled_at": "2026-11-16T16:47:53",
+  "endpoint": "https://api.fda.gov/drug/event.json",
+  "deduplicated": false,
+  "role_filtered": false,
+  "note": "Report-level counts from the openFDA aggregate API. NOT deduplicated by case version and NOT restricted to drugcharacterization=1; both are applied only in the raw-ASCII pipeline (src/10_parse_faers.py)."
+}

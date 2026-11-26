@@ -1,0 +1,101 @@
+{
+  "n_hpa_genes": 20151,
+  "n_genes_with_brain_annotation": 6084,
+  "modules": {
+    "CNS_VASCULAR": {
+      "n_genes": 39,
+      "n_scored": 39,
+      "n_missing_from_hpa": 0,
+      "missing": [],
+      "n_annotated": 37,
+      "score_all": 3.77,
+      "score_annotated_only": 3.974,
+      "null_mean_all": -0.351,
+      "null_sd_all": 0.601,
+      "z_all": 6.862,
+      "p_high_all": 0.0,
+      "p_low_all": 1.0,
+      "null_mean_annotated": -0.37,
+      "z_annotated": 6.862,
+      "p_high_annotated": 0.0
+    },
+    "MYELOID_CYTOKINE": {
+      "n_genes": 35,
+      "n_scored": 35,
+      "n_missing_from_hpa": 0,
+      "missing": [],
+      "n_annotated": 23,
+      "score_all": -2.259,
+      "score_annotated_only": -3.437,
+      "null_mean_all": -0.184,
+      "null_sd_all": 0.409,
+      "z_all": -5.077,
+      "p_high_all": 1.0,
+      "p_low_all": 0.0,
+      "null_mean_annotated": -0.28,
+      "z_annotated": -5.077,
+      "p_high_annotated": 1.0
+    },
+    "HEPATOCYTE_NEGCTRL": {
+      "n_genes": 17,
+      "n_scored": 17,
+      "n_missing_from_hpa": 1,
+      "missing": [
+        "G6PC"
+      ],
+      "n_annotated": 3,
+      "score_all": 0.0,
+      "score_annotated_only": 0.0,
+      "null_mean_all": -0.042,
+      "null_sd_all": 0.266,
+      "z_all": 0.159,
+      "p_high_all": 0.6692,
+      "p_low_all": 0.7818,
+      "null_mean_annotated": -0.24,
+      "z_annotated": 0.159,
+      "p_high_annotated": 0.6692
+    },
+    "COSTIM_CD28": {
+      "n_genes": 26,
+      "n_scored": 26,
+      "n_missing_from_hpa": 0,
+      "missing": [],
+      "n_annotated": 13,
+      "score_all": -1.893,
+      "score_annotated_only": -3.787,
+      "null_mean_all": -0.173,
+      "null_sd_all": 0.502,
+      "z_all": -3.429,
+      "p_high_all": 0.9997,
+      "p_low_all": 0.0003,
+      "null_mean_annotated": -0.347,
+      "z_annotated": -3.429,
+      "p_high_annotated": 0.9997
+    },
+    "COSTIM_41BB": {
+      "n_genes": 19,
+      "n_scored": 19,
+      "n_missing_from_hpa": 0,
+      "missing": [],
+      "n_annotated": 3,
+      "score_all": 0.0,
+      "score_annotated_only": 0.0,
+      "null_mean_all": -0.031,
+      "null_sd_all": 0.188,
+      "z_all": 0.166,
+      "p_high_all": 0.683,
+      "p_low_all": 0.8122,
+      "null_mean_annotated": -0.198,
+      "z_annotated": 0.166,
+      "p_high_annotated": 0.683
+    }
+  },
+  "interaction_CNS_minus_MYELOID": {
+    "delta": 6.029,
+    "null_mean": -0.166,
+    "null_sd": 0.723,
+    "z": 8.569,
+    "p_one_sided": 0.0,
+    "n_perm": 10000
+  }
+}

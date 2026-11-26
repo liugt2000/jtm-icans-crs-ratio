@@ -1,0 +1,74 @@
+graph 10156 nodes, 79553 edges, mean degree 15.67 (21s)
+pathways: 261 candidates, 152 non-redundant, 40 used
+  PCA01  pathway_half           fold   4.35/  2.05  p 0.079/0.092  k 19/19  [72s, total 93s] Opioid Signalling (R-HSA-111885)
+  PCA01s pathway_half_split2    fold   3.63/  4.56  p 0.091/0.090  k 19/19  [70s, total 163s] Opioid Signalling (R-HSA-111885)
+  PCA02  pathway_half           fold   3.74/  3.76  p 0.118/0.129  k 19/19  [62s, total 226s] Signaling by FGFR in disease (R-HSA-1226
+  PCA02s pathway_half_split2    fold   4.15/  4.09  p 0.122/0.103  k 19/19  [68s, total 294s] Signaling by FGFR in disease (R-HSA-1226
+  PCA03  pathway_half           fold   0.35/  0.37  p 0.098/0.095  k 19/19  [71s, total 365s] Amplification of signal from the kinetoc
+  PCA03s pathway_half_split2    fold   0.43/  0.35  p 0.074/0.097  k 19/19  [71s, total 436s] Amplification of signal from the kinetoc
+  PCA04  pathway_half           fold  15.09/ 25.64  p 0.004/0.000  k 19/19  [69s, total 505s] Degradation of the extracellular matrix 
+  PCA04s pathway_half_split2    fold  15.20/ 16.96  p 0.004/0.006  k 19/19  [72s, total 578s] Degradation of the extracellular matrix 
+  PCA05  pathway_half           fold   7.38/  6.44  p 0.107/0.108  k 19/19  [246s, total 824s] L13a-mediated translational silencing of
+  PCA05s pathway_half_split2    fold   6.25/  6.47  p 0.103/0.092  k 19/19  [270s, total 1095s] L13a-mediated translational silencing of
+  PCA06  pathway_half           fold   7.29/ 13.60  p 0.057/0.009  k 19/19  [90s, total 1185s] Late Phase of HIV Life Cycle (R-HSA-1625
+  PCA06s pathway_half_split2    fold   5.60/  5.61  p 0.070/0.050  k 19/19  [71s, total 1256s] Late Phase of HIV Life Cycle (R-HSA-1625
+  PCA07  pathway_half           fold  15.23/ 10.07  p 0.003/0.027  k 19/19  [69s, total 1326s] DDX58/IFIH1-mediated induction of interf
+  PCA08  pathway_half           fold   9.33/ 10.63  p 0.050/0.001  k 19/19  [70s, total 1396s] Cytosolic sensors of pathogen-associated
+  PCA09  pathway_half           fold   5.01/  4.08  p 0.062/0.054  k 19/19  [71s, total 1468s] p75 NTR receptor-mediated signalling (R-
+  PCA10  pathway_half           fold  11.84/  6.64  p 0.002/0.070  k 19/19  [61s, total 1528s] Signaling by NOTCH1 (R-HSA-1980143)
+  PCA11  pathway_half           fold  14.40/ 14.68  p 0.001/0.003  k 19/19  [49s, total 1578s] Fcgamma receptor (FCGR) dependent phagoc
+  PCA12  pathway_half           fold  20.52/ 19.11  p 0.001/0.011  k 19/19  [49s, total 1627s] Visual phototransduction (R-HSA-2187338)
+  PCA13  pathway_half           fold   3.83/  3.00  p 0.079/0.074  k 19/19  [49s, total 1676s] Senescence-Associated Secretory Phenotyp
+  PCA14  pathway_half           fold  12.16/  9.79  p 0.018/0.064  k 19/19  [49s, total 1725s] Peptide hormone metabolism (R-HSA-298073
+  PCA15  pathway_half           fold  14.24/ 13.57  p 0.003/0.002  k 19/19  [49s, total 1774s] SUMOylation of DNA damage response and r
+  PCA16  pathway_half           fold  16.01/ 15.88  p 0.001/0.002  k 19/19  [48s, total 1822s] Semaphorin interactions (R-HSA-373755)
+  PCA17  pathway_half           fold   0.40/  0.37  p 0.107/0.118  k 19/19  [46s, total 1868s] Unfolded Protein Response (UPR) (R-HSA-3
+  PCA18  pathway_half           fold   5.02/  5.34  p 0.078/0.007  k 19/19  [44s, total 1913s] Ca2+ pathway (R-HSA-4086398)
+  PCA19  pathway_half           fold   0.05/  0.04  p 0.239/0.301  k 19/19  [45s, total 1958s] SLC-mediated transmembrane transport (R-
+  PCA20  pathway_half           fold   3.97/  4.67  p 0.086/0.074  k 19/19  [45s, total 2003s] Positive epigenetic regulation of rRNA e
+  PCA21  pathway_half           fold   3.88/  3.04  p 0.091/0.095  k 19/19  [44s, total 2047s] Activation of anterior HOX genes in hind
+  PCA22  pathway_half           fold  21.80/ 19.71  p 0.000/0.001  k 19/19  [45s, total 2092s] TNFR2 non-canonical NF-kB pathway (R-HSA
+  PCA23  pathway_half           fold   2.91/  2.94  p 0.059/0.064  k 19/19  [44s, total 2136s] DNA Double Strand Break Response (R-HSA-
+  PCA24  pathway_half           fold   1.53/  1.80  p 0.128/0.123  k 19/19  [47s, total 2184s] Interleukin-4 and Interleukin-13 signali
+  PCA25  pathway_half           fold   2.50/  3.03  p 0.080/0.063  k 19/19  [46s, total 2230s] Regulation of TP53 Activity through Phos
+  PCA26  pathway_half           fold   0.73/  0.40  p 0.112/0.094  k 19/19  [44s, total 2274s] COPI-dependent Golgi-to-ER retrograde tr
+  PCA27  pathway_half           fold   4.75/  5.08  p 0.078/0.060  k 19/19  [43s, total 2317s] Glycolysis (R-HSA-70171)
+  PCA28  pathway_half           fold   6.82/  6.42  p 0.055/0.064  k 19/19  [44s, total 2361s] Interferon gamma signaling (R-HSA-877300
+  PCA29  pathway_half           fold   0.22/  0.27  p 0.350/0.181  k 19/19  [44s, total 2405s] Cargo recognition for clathrin-mediated 
+  PCA30  pathway_half           fold   5.20/  9.76  p 0.088/0.041  k 19/19  [42s, total 2446s] Fatty acid metabolism (R-HSA-8978868)
+  PCA31  pathway_half           fold   3.93/  3.47  p 0.063/0.050  k 19/19  [41s, total 2488s] RAC2 GTPase cycle (R-HSA-9013404)
+  PCA32  pathway_half           fold   3.17/  5.27  p 0.107/0.083  k 19/19  [42s, total 2530s] Interleukin-1 signaling (R-HSA-9020702)
+  PCA33  pathway_half           fold   5.21/  6.15  p 0.061/0.062  k 19/19  [45s, total 2575s] Diseases of programmed cell death (R-HSA
+  PCA34  pathway_half           fold  10.55/  8.30  p 0.000/0.005  k 19/19  [50s, total 2625s] SARS-CoV-1-host interactions (R-HSA-9692
+  PCA35  pathway_half           fold   5.01/ 10.03  p 0.075/0.050  k 19/19  [43s, total 2668s] Gastrulation (R-HSA-9758941)
+  PCA36  pathway_half           fold   3.70/  3.86  p 0.075/0.068  k 19/19  [44s, total 2712s] Amyloid fiber formation (R-HSA-977225)
+  PCA37  pathway_half           fold   6.56/  8.84  p 0.085/0.065  k 19/19  [46s, total 2759s] Respiratory Syncytial Virus Infection Pa
+  PCA38  pathway_half           fold   1.97/  2.46  p 0.111/0.088  k 19/19  [47s, total 2806s] Cellular responses to mechanical stimuli
+  PCA39  pathway_half           fold  10.91/  4.88  p 0.006/0.075  k 19/19  [46s, total 2852s] Regulation of PD-L1(CD274) transcription
+  PCA40  pathway_half           fold   5.66/  5.89  p 0.120/0.135  k 19/19  [47s, total 2899s] Ribosome Quality Control (RQC) complex e
+  PCB1   complex                fold  25.62/ 25.45  p 0.000/0.000  k 19/19  [47s, total 2946s] Ribosome: 40S (RPS) vs 60S (RPL)
+  PCB2   complex                fold   5.09/  5.00  p 0.071/0.082  k 8/11  [47s, total 2993s] 20S proteasome: alpha (PSMA) vs beta (PS
+  PCB3   complex                fold   5.48/  6.15  p 0.068/0.058  k 6/14  [47s, total 3039s] 19S proteasome: ATPase (PSMC) vs base (P
+  PCC1   negative               fold   0.64/  0.39  p 0.653/0.759  k 15/19  [46s, total 3086s] HEPATOCYTE_NEGCTRL vs half of Opioid Sig
+  PCC2   negative               fold   0.41/  0.30  p 0.909/0.986  k 15/19  [47s, total 3133s] HEPATOCYTE_NEGCTRL vs half of Signaling 
+  PCC3   negative               fold   0.19/  0.22  p 0.972/0.988  k 15/19  [47s, total 3180s] HEPATOCYTE_NEGCTRL vs half of Amplificat
+  PCD01  random_pair            fold   0.75/  0.66  p 0.176/0.197  k 19/19  [47s, total 3227s] independent random pair
+  PCD02  random_pair            fold   0.52/  0.42  p 0.590/0.489  k 19/19  [46s, total 3273s] independent random pair
+  PCD03  random_pair            fold  12.56/ 13.18  p 0.022/0.006  k 19/19  [47s, total 3320s] independent random pair
+  PCD04  random_pair            fold   0.23/  0.28  p 0.946/0.796  k 19/19  [47s, total 3367s] independent random pair
+  PCD05  random_pair            fold   0.45/  0.28  p 0.858/0.675  k 19/19  [46s, total 3413s] independent random pair
+  PCD06  random_pair            fold   4.27/  6.17  p 0.038/0.047  k 19/19  [72s, total 3485s] independent random pair
+  PCD07  random_pair            fold   0.37/  0.40  p 0.708/0.732  k 19/19  [90s, total 3574s] independent random pair
+  PCD08  random_pair            fold   0.42/  0.42  p 0.308/0.439  k 19/19  [93s, total 3668s] independent random pair
+  PCD09  random_pair            fold   0.58/  0.58  p 0.281/0.378  k 19/19  [74s, total 3741s] independent random pair
+  PCD10  random_pair            fold   0.39/  0.39  p 0.460/0.831  k 19/19  [52s, total 3794s] independent random pair
+
+SUMMARY
+  pathway_half           {"n": 40, "fold_median": 5.015589088308021, "fold_q1": 3.5670141907761286, "fold_q3": 10.63670800037492, "fold_min": 0.04580084329577737, "fold_max": 21.80190278188919, "fold_vs_null_median_median": 27.74269135358923, "n_p_lt_0.05": 11, "frac_p_lt_0.05": 0.275, "frac_p_lt_0.01": 0.25, "min_fold_significant": 10.546637093209982, "max_fold_not_significant": 9.32839752598243, "p_median": 0.0765}
+  complex                {"n": 3, "fold_median": 5.481397139682689, "fold_q1": 5.287156227524294, "fold_q3": 15.55298156764646, "fold_min": 5.092915315365898, "fold_max": 25.624565995610233, "fold_vs_null_median_median": 55.64753213963314, "n_p_lt_0.05": 1, "frac_p_lt_0.05": 0.3333333333333333, "frac_p_lt_0.01": 0.3333333333333333, "min_fold_significant": 25.624565995610233, "max_fold_not_significant": 5.481397139682689, "p_median": 0.068}
+  negative               {"n": 3, "fold_median": 0.4124334612137756, "fold_q1": 0.2997813847401771, "fold_q3": 0.5239981595968362, "fold_min": 0.18712930826657861, "fold_max": 0.6355628579798968, "fold_vs_null_median_median": 0.7689627656161199, "n_p_lt_0.05": 0, "frac_p_lt_0.05": 0.0, "frac_p_lt_0.01": 0.0, "min_fold_significant": null, "max_fold_not_significant": 0.6355628579798968, "p_median": 0.909}
+  random_pair            {"n": 10, "fold_median": 0.48681373671976114, "fold_q1": 0.3954651587119197, "fold_q3": 0.706394615027239, "fold_min": 0.22876763813498088, "fold_max": 12.559005531143873, "fold_vs_null_median_median": 1.1570849852077414, "n_p_lt_0.05": 2, "frac_p_lt_0.05": 0.2, "frac_p_lt_0.01": 0.0, "min_fold_significant": 4.270781754615356, "max_fold_not_significant": 0.7494761980720842, "p_median": 0.384}
+  pathway_half_split2    {"n": 6, "fold_median": 4.875039369879239, "fold_q1": 3.756847044467901, "fold_q3": 6.0892338280248275, "fold_min": 0.42981458370537495, "fold_max": 15.19518604703861, "fold_vs_null_median_median": 22.25048578130851, "n_p_lt_0.05": 1, "frac_p_lt_0.05": 0.16666666666666666, "frac_p_lt_0.01": 0.16666666666666666, "min_fold_significant": 15.19518604703861, "max_fold_not_significant": 6.252655495610764, "p_median": 0.08249999999999999}
+  empirical_fold_for_80pct_detection 7.384816692459963
+
+wrote out/positive_control.csv/.json in 3794s

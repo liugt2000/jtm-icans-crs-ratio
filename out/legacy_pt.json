@@ -1,0 +1,68 @@
+{
+  "legacy_pt": "Neurotoxicity",
+  "n_legacy_records_pulled": 17537,
+  "n_shared_reports_with_primary_pull": 1909,
+  "flag_disagreements_on_shared_reports": 0,
+  "n_reports_before_2019": 7091,
+  "n_reports_in_window": 30474,
+  "n_products_eligible": 14,
+  "min_phenotype_reports": 20,
+  "union": {
+    "definition": "n(ICANS or Neurotoxicity) / (n(ICANS or Neurotoxicity) + n(CRS))",
+    "group_R": {
+      "CD28": 0.4401624742116572,
+      "4-1BB": 0.3527789389532742,
+      "BiTE": 0.26215124097687303
+    },
+    "perm_CD28_vs_41BB": {
+      "diff": 0.087383535258383,
+      "p_one_sided": 0.09523809523809523,
+      "p_two_sided": 0.19047619047619047,
+      "min_attainable_p_one_sided": 0.047619047619047616,
+      "n_products_cd28": 2,
+      "n_products_41bb": 5
+    },
+    "n_products_switching_rank_vs_primary": 9
+  },
+  "legacy_only": {
+    "definition": "n(Neurotoxicity) / (n(Neurotoxicity) + n(CRS))",
+    "group_R": {
+      "CD28": 0.19579405366207397,
+      "4-1BB": 0.16325233984711077,
+      "BiTE": 0.06757828362214928
+    },
+    "perm_CD28_vs_41BB": {
+      "diff": 0.03254171381496321,
+      "p_one_sided": 0.3333333333333333,
+      "p_two_sided": 0.6666666666666666,
+      "min_attainable_p_one_sided": 0.047619047619047616,
+      "n_products_cd28": 2,
+      "n_products_41bb": 5
+    }
+  },
+  "primary_for_comparison": {
+    "group_R": {
+      "CD28": 0.36109632799283503,
+      "4-1BB": 0.2744657600849491,
+      "BiTE": 0.22241492649097414
+    },
+    "perm_CD28_vs_41BB": {
+      "diff": 0.08663056790788592,
+      "p_one_sided": 0.047619047619047616,
+      "p_two_sided": 0.09523809523809523,
+      "min_attainable_p_one_sided": 0.047619047619047616,
+      "n_products_cd28": 2,
+      "n_products_41bb": 5
+    }
+  },
+  "rank_agreement_union_vs_legacy": {
+    "spearman_rho": 0.8681318681318682,
+    "p": 5.6798189086915085e-05,
+    "n": 14
+  },
+  "rank_agreement_primary_vs_union": {
+    "spearman_rho": 0.7626373626373627,
+    "p": 0.0015142307860533167,
+    "n": 14
+  }
+}

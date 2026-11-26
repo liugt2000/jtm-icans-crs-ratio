@@ -1,0 +1,153 @@
+{
+  "by_class": {
+    "pathway_half": {
+      "n": 40,
+      "fold_median_of_median_ratio": 27.74265,
+      "fold_median_q1": 10.088117500000001,
+      "fold_median_q3": 63.19365,
+      "fold_mean_ratio_median": 5.0155899999999995,
+      "fold_mean_ratio_q1": 3.5670100000000002,
+      "fold_mean_ratio_q3": 10.636675,
+      "fold_mean_ratio_min": 0.0458008,
+      "fold_mean_ratio_max": 21.8019,
+      "max_fold_mean_not_significant": 9.3284,
+      "min_fold_mean_significant": 10.5466,
+      "null_cv_median": 2.485307197911315,
+      "n_p_lt_0.05": 11,
+      "n_p_lt_0.01": 10,
+      "p_median": 0.0765,
+      "p_min": 0.0
+    },
+    "pathway_half_split2": {
+      "n": 6,
+      "fold_median_of_median_ratio": 22.250495,
+      "fold_median_q1": 8.0665625,
+      "fold_median_q3": 94.147325,
+      "fold_mean_ratio_median": 4.87504,
+      "fold_mean_ratio_q1": 3.75685,
+      "fold_mean_ratio_q3": 6.089237499999999,
+      "fold_mean_ratio_min": 0.429815,
+      "fold_mean_ratio_max": 15.1952,
+      "max_fold_mean_not_significant": 6.25266,
+      "min_fold_mean_significant": 15.1952,
+      "null_cv_median": 2.6238998065399715,
+      "n_p_lt_0.05": 1,
+      "n_p_lt_0.01": 1,
+      "p_median": 0.08249999999999999,
+      "p_min": 0.004
+    },
+    "complex": {
+      "n": 3,
+      "fold_median_of_median_ratio": 55.6475,
+      "fold_median_q1": 53.1227,
+      "fold_median_q3": 55.7156,
+      "fold_mean_ratio_median": 5.4814,
+      "fold_mean_ratio_q1": 5.28716,
+      "fold_mean_ratio_q3": 15.553,
+      "fold_mean_ratio_min": 5.09292,
+      "fold_mean_ratio_max": 25.6246,
+      "max_fold_mean_not_significant": 5.4814,
+      "min_fold_mean_significant": 25.6246,
+      "null_cv_median": 2.4872090957541304,
+      "n_p_lt_0.05": 1,
+      "n_p_lt_0.01": 1,
+      "p_median": 0.068,
+      "p_min": 0.0
+    },
+    "negative": {
+      "n": 3,
+      "fold_median_of_median_ratio": 0.768963,
+      "fold_median_q1": 0.6721809999999999,
+      "fold_median_q3": 0.81365,
+      "fold_mean_ratio_median": 0.412433,
+      "fold_mean_ratio_q1": 0.29978099999999996,
+      "fold_mean_ratio_q3": 0.523998,
+      "fold_mean_ratio_min": 0.187129,
+      "fold_mean_ratio_max": 0.635563,
+      "max_fold_mean_not_significant": 0.635563,
+      "min_fold_mean_significant": null,
+      "null_cv_median": 2.024701528478366,
+      "n_p_lt_0.05": 0,
+      "n_p_lt_0.01": 0,
+      "p_median": 0.909,
+      "p_min": 0.653
+    },
+    "random_pair": {
+      "n": 10,
+      "fold_median_of_median_ratio": 1.157085,
+      "fold_median_q1": 0.88192125,
+      "fold_median_q3": 1.3816350000000002,
+      "fold_mean_ratio_median": 0.4868135,
+      "fold_mean_ratio_q1": 0.3954655,
+      "fold_mean_ratio_q3": 0.7063945,
+      "fold_mean_ratio_min": 0.228768,
+      "fold_mean_ratio_max": 12.559,
+      "max_fold_mean_not_significant": 0.749476,
+      "min_fold_mean_significant": 4.27078,
+      "null_cv_median": 2.2151438792798435,
+      "n_p_lt_0.05": 2,
+      "n_p_lt_0.01": 0,
+      "p_median": 0.384,
+      "p_min": 0.022
+    }
+  },
+  "bracket": {
+    "max_fold_median_ratio_not_significant": 161.097,
+    "min_fold_median_ratio_significant": 31.6725,
+    "n_related_pairs": 49,
+    "n_significant": 13,
+    "analytic_mde_11_9_inside": false
+  },
+  "calibration": {
+    "n_unrelated": 13,
+    "fold_median_ratio_median": 0.940725,
+    "fold_median_ratio_q1": 0.836099,
+    "fold_median_ratio_q3": 1.35474,
+    "n_p_lt_0.05": 2,
+    "p_median": 0.59
+  },
+  "split_agreement": {
+    "n": 6,
+    "correlation": 0.9994021481350278,
+    "max_relative_difference": 0.021583461445100788,
+    "pairs": [
+      {
+        "name": "Opioid Signalling (R-HSA-111885)",
+        "split1": 9.84547,
+        "split2": 7.71852
+      },
+      {
+        "name": "Signaling by FGFR in disease (R-HSA-1226099)",
+        "split1": 11.4134,
+        "split2": 9.11069
+      },
+      {
+        "name": "Amplification of signal from the kinetochores (R-HSA-141424)",
+        "split1": 2.6182,
+        "split2": 2.64776
+      },
+      {
+        "name": "Degradation of the extracellular matrix (R-HSA-1474228)",
+        "split1": 110.532,
+        "split2": 113.733
+      },
+      {
+        "name": "L13a-mediated translational silencing of Ceruloplasmin expression (R-HSA-156827)",
+        "split1": 148.308,
+        "split2": 146.053
+      },
+      {
+        "name": "Late Phase of HIV Life Cycle (R-HSA-162599)",
+        "split1": 37.675,
+        "split2": 35.3903
+      }
+    ]
+  },
+  "pipeline_reproduction": {
+    "observed_mass_matches": true,
+    "max_relative_fold_difference": 0.01711593212639668,
+    "within_monte_carlo": true,
+    "n_perm": 2000,
+    "note": "observed masses are deterministic and must match the published values exactly; folds carry 2,000-draw sampling error and are compared only for agreement."
+  }
+}

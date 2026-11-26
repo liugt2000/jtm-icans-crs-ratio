@@ -1,0 +1,460 @@
+{
+  "n_reports_raw": 21937,
+  "n_reports_after_dedup": 21937,
+  "n_duplicates_removed": 0,
+  "pct_duplicates_removed": 0.0,
+  "n_unique_safetyreportid": 21937,
+  "dedup_note": "openFDA exposes one record per case (latest safetyreportversion); version-level duplication is therefore absent by construction, and the residual risk is the same patient reported under two different safetyreportid values, which the public interface cannot detect.",
+  "n_reports_before_2019": 1205,
+  "n_reports_in_window": 20732,
+  "min_phenotype_reports_for_eligibility": 20,
+  "n_products_eligible": 14,
+  "group_R": {
+    "CD28": {
+      "n_products": 2,
+      "mean": 0.3610963279928351,
+      "min": 0.33215384615384613,
+      "max": 0.39003880983182404,
+      "products": [
+        "brexu-cel",
+        "axi-cel"
+      ]
+    },
+    "4-1BB": {
+      "n_products": 5,
+      "mean": 0.27446576008494916,
+      "min": 0.21763392857142858,
+      "max": 0.32,
+      "products": [
+        "obe-cel",
+        "liso-cel",
+        "cilta-cel",
+        "tisa-cel",
+        "ide-cel"
+      ]
+    },
+    "BiTE": {
+      "n_products": 7,
+      "mean": 0.22241492649097414,
+      "min": 0.15004935834155972,
+      "max": 0.2727272727272727,
+      "products": [
+        "teclistamab",
+        "tarlatamab",
+        "talquetamab",
+        "elranatamab",
+        "blina",
+        "epcoritamab",
+        "glofitamab"
+      ]
+    }
+  },
+  "perm_CD28_vs_41BB": {
+    "diff": 0.08663056790788592,
+    "p_one_sided": 0.047619047619047616,
+    "p_two_sided": 0.09523809523809523,
+    "min_attainable_p_one_sided": 0.047619047619047616,
+    "min_attainable_p_two_sided": 0.047619047619047616,
+    "n_permutations": 21,
+    "attains_one_sided_minimum": true,
+    "note": "the observed grouping is the maximum of the permutation distribution in the pre-specified direction; because the two groups are unequal in size the two-sided p is not twice the one-sided one and its floor is 2/n_permutations only when the group sizes are equal."
+  },
+  "perm_CD28_vs_41BB_anyrole": {
+    "diff": 0.08887314276158653,
+    "p_one_sided": 0.047619047619047616,
+    "p_two_sided": 0.09523809523809523,
+    "min_attainable_p_one_sided": 0.047619047619047616,
+    "min_attainable_p_two_sided": 0.047619047619047616,
+    "n_permutations": 21,
+    "attains_one_sided_minimum": true,
+    "note": "the observed grouping is the maximum of the permutation distribution in the pre-specified direction; because the two groups are unequal in size the two-sided p is not twice the one-sided one and its floor is 2/n_permutations only when the group sizes are equal."
+  },
+  "perm_CD28_vs_41BB_monotherapy": {
+    "diff": 0.09104516617266639,
+    "p_one_sided": 0.047619047619047616,
+    "p_two_sided": 0.09523809523809523,
+    "min_attainable_p_one_sided": 0.047619047619047616,
+    "min_attainable_p_two_sided": 0.047619047619047616,
+    "n_permutations": 21,
+    "attains_one_sided_minimum": true,
+    "note": "the observed grouping is the maximum of the permutation distribution in the pre-specified direction; because the two groups are unequal in size the two-sided p is not twice the one-sided one and its floor is 2/n_permutations only when the group sizes are equal."
+  },
+  "monotherapy_group_R": {
+    "CD28": 0.364017464079865,
+    "4-1BB": 0.2729722979071986
+  },
+  "isolated_phenotype": {
+    "n_reports": 16662,
+    "n_icans_only": 1857,
+    "n_crs_only": 14805,
+    "n_products_eligible": 13,
+    "group_R": {
+      "CD28": 0.18737630951146148,
+      "4-1BB": 0.1290148207207164,
+      "BiTE": 0.13774786813123588
+    },
+    "perm_CD28_vs_41BB": {
+      "diff": 0.05836148879074507,
+      "p_one_sided": 0.2,
+      "p_two_sided": 0.3333333333333333,
+      "min_attainable_p_one_sided": 0.06666666666666667,
+      "min_attainable_p_two_sided": 0.06666666666666667,
+      "n_permutations": 15,
+      "attains_one_sided_minimum": false,
+      "note": "the observed grouping is the maximum of the permutation distribution in the pre-specified direction; because the two groups are unequal in size the two-sided p is not twice the one-sided one and its floor is 2/n_permutations only when the group sizes are equal."
+    }
+  },
+  "within_product_drift": {
+    "n_products": 13,
+    "n_rising": 11,
+    "median_delta": 0.0661,
+    "detail": {
+      "brexu-cel": {
+        "R_first_half": 0.3568,
+        "R_second_half": 0.4229,
+        "delta": 0.0661,
+        "midpoint": "20231113"
+      },
+      "axi-cel": {
+        "R_first_half": 0.2604,
+        "R_second_half": 0.395,
+        "delta": 0.1346,
+        "midpoint": "20230510"
+      },
+      "liso-cel": {
+        "R_first_half": 0.2559,
+        "R_second_half": 0.3755,
+        "delta": 0.1195,
+        "midpoint": "20240401"
+      },
+      "cilta-cel": {
+        "R_first_half": 0.2774,
+        "R_second_half": 0.3125,
+        "delta": 0.0351,
+        "midpoint": "20250428"
+      },
+      "teclistamab": {
+        "R_first_half": 0.2889,
+        "R_second_half": 0.2564,
+        "delta": -0.0325,
+        "midpoint": "20250129"
+      },
+      "tarlatamab": {
+        "R_first_half": 0.3152,
+        "R_second_half": 0.2214,
+        "delta": -0.0938,
+        "midpoint": "20260316"
+      },
+      "talquetamab": {
+        "R_first_half": 0.2507,
+        "R_second_half": 0.2623,
+        "delta": 0.0116,
+        "midpoint": "20250807"
+      },
+      "elranatamab": {
+        "R_first_half": 0.2218,
+        "R_second_half": 0.2688,
+        "delta": 0.047,
+        "midpoint": "20250603"
+      },
+      "tisa-cel": {
+        "R_first_half": 0.1423,
+        "R_second_half": 0.292,
+        "delta": 0.1498,
+        "midpoint": "20210915"
+      },
+      "ide-cel": {
+        "R_first_half": 0.1914,
+        "R_second_half": 0.2434,
+        "delta": 0.0519,
+        "midpoint": "20231017"
+      },
+      "blina": {
+        "R_first_half": 0.083,
+        "R_second_half": 0.3024,
+        "delta": 0.2193,
+        "midpoint": "20230911"
+      },
+      "epcoritamab": {
+        "R_first_half": 0.1039,
+        "R_second_half": 0.2179,
+        "delta": 0.114,
+        "midpoint": "20240530"
+      },
+      "glofitamab": {
+        "R_first_half": 0.0935,
+        "R_second_half": 0.2035,
+        "delta": 0.11,
+        "midpoint": "20250522"
+      }
+    }
+  },
+  "year_stratified": {
+    "n_years": 8,
+    "n_years_delta_positive": 7,
+    "detail": [
+      {
+        "year": 2019,
+        "n_cd28": 1,
+        "n_41bb": 1,
+        "CD28": 0.0196078431372549,
+        "41BB": 0.03655352480417755,
+        "delta": -0.016945681666922646
+      },
+      {
+        "year": 2020,
+        "n_cd28": 1,
+        "n_41bb": 1,
+        "CD28": 0.25510204081632654,
+        "41BB": 0.1781609195402299,
+        "delta": 0.07694112127609665
+      },
+      {
+        "year": 2021,
+        "n_cd28": 2,
+        "n_41bb": 3,
+        "CD28": 0.36660506678518795,
+        "41BB": 0.16719019462921902,
+        "delta": 0.19941487215596893
+      },
+      {
+        "year": 2022,
+        "n_cd28": 2,
+        "n_41bb": 4,
+        "CD28": 0.3377221678366399,
+        "41BB": 0.24879981558219208,
+        "delta": 0.0889223522544478
+      },
+      {
+        "year": 2023,
+        "n_cd28": 2,
+        "n_41bb": 4,
+        "CD28": 0.3750360073107257,
+        "41BB": 0.27715592774516457,
+        "delta": 0.09788007956556116
+      },
+      {
+        "year": 2024,
+        "n_cd28": 2,
+        "n_41bb": 4,
+        "CD28": 0.4081573502657582,
+        "41BB": 0.298033968310201,
+        "delta": 0.11012338195555721
+      },
+      {
+        "year": 2025,
+        "n_cd28": 2,
+        "n_41bb": 4,
+        "CD28": 0.42428620193597155,
+        "41BB": 0.28334224936659014,
+        "delta": 0.14094395256938141
+      },
+      {
+        "year": 2026,
+        "n_cd28": 2,
+        "n_41bb": 4,
+        "CD28": 0.39369514208742507,
+        "41BB": 0.31506803305803033,
+        "delta": 0.07862710902939474
+      }
+    ]
+  },
+  "temporal": {
+    "brexu-cel": {
+      "R_early": 0.3720050441361917,
+      "R_late": 0.4180327868852459,
+      "n_early": 793,
+      "n_late": 732
+    },
+    "axi-cel": {
+      "R_early": 0.3498862774829416,
+      "R_late": 0.40152963671128106,
+      "n_early": 2638,
+      "n_late": 2615
+    },
+    "liso-cel": {
+      "R_early": 0.25961538461538464,
+      "R_late": 0.37337662337662336,
+      "n_early": 208,
+      "n_late": 308
+    },
+    "cilta-cel": {
+      "R_early": 0.22110552763819097,
+      "R_late": 0.30873087308730873,
+      "n_early": 199,
+      "n_late": 1111
+    },
+    "teclistamab": {
+      "R_early": 0.2939068100358423,
+      "R_late": 0.2669404517453799,
+      "n_early": 279,
+      "n_late": 974
+    },
+    "talquetamab": {
+      "R_early": 0.16279069767441862,
+      "R_late": 0.26231884057971017,
+      "n_early": 43,
+      "n_late": 690
+    },
+    "elranatamab": {
+      "R_early": 0.10810810810810811,
+      "R_late": 0.2559055118110236,
+      "n_early": 37,
+      "n_late": 508
+    },
+    "tisa-cel": {
+      "R_early": 0.2876557191392978,
+      "R_late": 0.2755102040816326,
+      "n_early": 883,
+      "n_late": 490
+    },
+    "ide-cel": {
+      "R_early": 0.1980392156862745,
+      "R_late": 0.24352331606217617,
+      "n_early": 510,
+      "n_late": 386
+    },
+    "blina": {
+      "R_early": 0.12215320910973085,
+      "R_late": 0.3107638888888889,
+      "n_early": 483,
+      "n_late": 576
+    },
+    "epcoritamab": {
+      "R_early": 0.08088235294117647,
+      "R_late": 0.20159453302961275,
+      "n_early": 408,
+      "n_late": 878
+    },
+    "glofitamab": {
+      "R_early": 0.08421052631578947,
+      "R_late": 0.1691542288557214,
+      "n_early": 190,
+      "n_late": 804
+    }
+  },
+  "temporal_rank": {
+    "spearman_rho": 0.7832167832167832,
+    "p": 0.00258621483336259,
+    "n_products": 12,
+    "products": [
+      "brexu-cel",
+      "axi-cel",
+      "liso-cel",
+      "cilta-cel",
+      "teclistamab",
+      "talquetamab",
+      "elranatamab",
+      "tisa-cel",
+      "ide-cel",
+      "blina",
+      "epcoritamab",
+      "glofitamab"
+    ]
+  },
+  "temporal_group_R": {
+    "2021-2023": {
+      "CD28": 0.36094566080956664,
+      "4-1BB": 0.241603961769787,
+      "BiTE": 0.14200861736417766
+    },
+    "2024-2026": {
+      "CD28": 0.4097812117982635,
+      "4-1BB": 0.3042282033215482,
+      "BiTE": 0.2480222362319576
+    },
+    "2019-2022": {
+      "CD28": 0.29825040582371565,
+      "4-1BB": 0.19719216419046107,
+      "BiTE": 0.05765826629797218
+    },
+    "2023-2026": {
+      "CD28": 0.39877685218351566,
+      "4-1BB": 0.3041113725949859,
+      "BiTE": 0.23930646470653702
+    }
+  },
+  "co_reporting": {
+    "n_icans_reports": 5927,
+    "n_with_crs_also": 4070,
+    "fraction_with_crs": 0.6867
+  },
+  "co_reporting_by_product": {
+    "brexu-cel": {
+      "n_icans": 603,
+      "frac_with_crs": 0.7662
+    },
+    "axi-cel": {
+      "n_icans": 2159,
+      "frac_with_crs": 0.7874
+    },
+    "obe-cel": {
+      "n_icans": 8,
+      "frac_with_crs": 0.625
+    },
+    "liso-cel": {
+      "n_icans": 169,
+      "frac_with_crs": 0.6095
+    },
+    "cilta-cel": {
+      "n_icans": 387,
+      "frac_with_crs": 0.6899
+    },
+    "teclistamab": {
+      "n_icans": 342,
+      "frac_with_crs": 0.5906
+    },
+    "tarlatamab": {
+      "n_icans": 377,
+      "frac_with_crs": 0.504
+    },
+    "talquetamab": {
+      "n_icans": 188,
+      "frac_with_crs": 0.5691
+    },
+    "elranatamab": {
+      "n_icans": 134,
+      "frac_with_crs": 0.4627
+    },
+    "tisa-cel": {
+      "n_icans": 465,
+      "frac_with_crs": 0.7226
+    },
+    "ide-cel": {
+      "n_icans": 195,
+      "frac_with_crs": 0.7949
+    },
+    "blina": {
+      "n_icans": 239,
+      "frac_with_crs": 0.4937
+    },
+    "epcoritamab": {
+      "n_icans": 210,
+      "frac_with_crs": 0.5143
+    },
+    "glofitamab": {
+      "n_icans": 152,
+      "frac_with_crs": 0.6316
+    }
+  },
+  "model_prediction": {
+    "statement": "a future CD28-costimulated product should show R within the union of the current CD28 Wilson intervals; a value at or below the highest observed 4-1BB point estimate refutes the construct-level account",
+    "new_cd28_window": [
+      0.321,
+      0.415
+    ],
+    "refutation_threshold": 0.32,
+    "cd28_point_estimates": [
+      0.39,
+      0.332
+    ],
+    "four_1bb_range": [
+      0.218,
+      0.32
+    ],
+    "bite_range": [
+      0.15,
+      0.273
+    ]
+  }
+}

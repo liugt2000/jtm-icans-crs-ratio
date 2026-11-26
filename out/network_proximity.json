@@ -1,0 +1,388 @@
+{
+  "graph": {
+    "nodes_raw": 10240,
+    "nodes_giant": 10156,
+    "edges_giant": 79553,
+    "nodes_brain": 9359,
+    "edges_brain": 73211,
+    "brain_universe_genes": 17002
+  },
+  "modules": {},
+  "universes": {
+    "full": {
+      "CNS_VASCULAR": {
+        "n_defined": 39,
+        "n_in_graph": 36,
+        "dropped": [
+          "ABCC9",
+          "MFSD2A",
+          "RGS5"
+        ],
+        "to_MYELOID_CYTOKINE": {
+          "d": 1.5833,
+          "null_mean": 1.6536,
+          "null_sd": 0.0812,
+          "z": -0.866,
+          "p_closer": 0.2432,
+          "emp_below_5pct": false,
+          "emp_below_1pct": false
+        },
+        "to_HEPATOCYTE_NEGCTRL": {
+          "d": 1.8889,
+          "null_mean": 2.0848,
+          "null_sd": 0.0703,
+          "z": -2.786,
+          "p_closer": 0.0061,
+          "emp_below_5pct": true,
+          "emp_below_1pct": true
+        }
+      },
+      "MYELOID_CYTOKINE": {
+        "n_defined": 35,
+        "n_in_graph": 35,
+        "dropped": [],
+        "to_CNS_VASCULAR": {
+          "d": 1.5429,
+          "null_mean": 1.678,
+          "null_sd": 0.0868,
+          "z": -1.557,
+          "p_closer": 0.0841,
+          "emp_below_5pct": false,
+          "emp_below_1pct": false
+        },
+        "to_HEPATOCYTE_NEGCTRL": {
+          "d": 1.8,
+          "null_mean": 1.9531,
+          "null_sd": 0.063,
+          "z": -2.431,
+          "p_closer": 0.0164,
+          "emp_below_5pct": true,
+          "emp_below_1pct": false
+        }
+      },
+      "HEPATOCYTE_NEGCTRL": {
+        "n_defined": 18,
+        "n_in_graph": 15,
+        "dropped": [
+          "ABCB11",
+          "G6PC",
+          "UGT1A1"
+        ],
+        "to_CNS_VASCULAR": {
+          "d": 1.9333,
+          "null_mean": 2.0215,
+          "null_sd": 0.1237,
+          "z": -0.712,
+          "p_closer": 0.3281,
+          "emp_below_5pct": false,
+          "emp_below_1pct": false
+        },
+        "to_MYELOID_CYTOKINE": {
+          "d": 1.8,
+          "null_mean": 1.876,
+          "null_sd": 0.1182,
+          "z": -0.643,
+          "p_closer": 0.358,
+          "emp_below_5pct": false,
+          "emp_below_1pct": false
+        }
+      },
+      "COSTIM_CD28": {
+        "n_defined": 26,
+        "n_in_graph": 26,
+        "dropped": [],
+        "to_CNS_VASCULAR": {
+          "d": 1.4615,
+          "null_mean": 1.6644,
+          "null_sd": 0.1005,
+          "z": -2.019,
+          "p_closer": 0.0387,
+          "emp_below_5pct": true,
+          "emp_below_1pct": false
+        },
+        "to_MYELOID_CYTOKINE": {
+          "d": 1.0769,
+          "null_mean": 1.4564,
+          "null_sd": 0.1011,
+          "z": -3.755,
+          "p_closer": 0.0001,
+          "emp_below_5pct": true,
+          "emp_below_1pct": true
+        },
+        "to_HEPATOCYTE_NEGCTRL": {
+          "d": 1.9231,
+          "null_mean": 1.9412,
+          "null_sd": 0.0722,
+          "z": -0.25,
+          "p_closer": 0.4945,
+          "emp_below_5pct": false,
+          "emp_below_1pct": false
+        }
+      },
+      "COSTIM_41BB": {
+        "n_defined": 19,
+        "n_in_graph": 19,
+        "dropped": [],
+        "to_CNS_VASCULAR": {
+          "d": 1.6316,
+          "null_mean": 1.6716,
+          "null_sd": 0.1185,
+          "z": -0.338,
+          "p_closer": 0.4538,
+          "emp_below_5pct": false,
+          "emp_below_1pct": false
+        },
+        "to_MYELOID_CYTOKINE": {
+          "d": 1.0,
+          "null_mean": 1.4667,
+          "null_sd": 0.1171,
+          "z": -3.985,
+          "p_closer": 0.0002,
+          "emp_below_5pct": true,
+          "emp_below_1pct": true
+        },
+        "to_HEPATOCYTE_NEGCTRL": {
+          "d": 1.8421,
+          "null_mean": 1.9531,
+          "null_sd": 0.0866,
+          "z": -1.281,
+          "p_closer": 0.1574,
+          "emp_below_5pct": false,
+          "emp_below_1pct": false
+        }
+      },
+      "_within": {
+        "CNS_VASCULAR": {
+          "n": 36,
+          "mean_within_distance_first12": 3.0523
+        },
+        "MYELOID_CYTOKINE": {
+          "n": 35,
+          "mean_within_distance_first12": 2.9411
+        },
+        "HEPATOCYTE_NEGCTRL": {
+          "n": 15,
+          "mean_within_distance_first12": 3.1618
+        }
+      }
+    },
+    "brain": {
+      "CNS_VASCULAR": {
+        "n_defined": 39,
+        "n_in_graph": 36,
+        "dropped": [
+          "ABCC9",
+          "MFSD2A",
+          "RGS5"
+        ],
+        "to_MYELOID_CYTOKINE": {
+          "d": 1.5833,
+          "null_mean": 1.6763,
+          "null_sd": 0.0805,
+          "z": -1.155,
+          "p_closer": 0.1645,
+          "emp_below_5pct": false,
+          "emp_below_1pct": false
+        },
+        "to_HEPATOCYTE_NEGCTRL": {
+          "d": 2.1944,
+          "null_mean": 2.1742,
+          "null_sd": 0.0736,
+          "z": 0.275,
+          "p_closer": 0.677,
+          "emp_below_5pct": false,
+          "emp_below_1pct": false
+        }
+      },
+      "MYELOID_CYTOKINE": {
+        "n_defined": 35,
+        "n_in_graph": 32,
+        "dropped": [
+          "CSF2",
+          "LCN2",
+          "TLR4"
+        ],
+        "to_CNS_VASCULAR": {
+          "d": 1.5312,
+          "null_mean": 1.6956,
+          "null_sd": 0.0869,
+          "z": -1.89,
+          "p_closer": 0.0461,
+          "emp_below_5pct": true,
+          "emp_below_1pct": false
+        },
+        "to_HEPATOCYTE_NEGCTRL": {
+          "d": 1.8125,
+          "null_mean": 2.0426,
+          "null_sd": 0.0674,
+          "z": -3.414,
+          "p_closer": 0.0009,
+          "emp_below_5pct": true,
+          "emp_below_1pct": true
+        }
+      },
+      "HEPATOCYTE_NEGCTRL": {
+        "n_defined": 18,
+        "n_in_graph": 12,
+        "dropped": [
+          "ABCB11",
+          "F2",
+          "G6PC",
+          "SERPINC1",
+          "TAT",
+          "UGT1A1"
+        ],
+        "to_CNS_VASCULAR": {
+          "d": 2.0,
+          "null_mean": 2.0409,
+          "null_sd": 0.1367,
+          "z": -0.299,
+          "p_closer": 0.5102,
+          "emp_below_5pct": false,
+          "emp_below_1pct": false
+        },
+        "to_MYELOID_CYTOKINE": {
+          "d": 1.75,
+          "null_mean": 1.9149,
+          "null_sd": 0.1302,
+          "z": -1.267,
+          "p_closer": 0.1677,
+          "emp_below_5pct": false,
+          "emp_below_1pct": false
+        }
+      },
+      "COSTIM_CD28": {
+        "n_defined": 26,
+        "n_in_graph": 26,
+        "dropped": [],
+        "to_CNS_VASCULAR": {
+          "d": 1.4615,
+          "null_mean": 1.6518,
+          "null_sd": 0.0997,
+          "z": -1.909,
+          "p_closer": 0.0469,
+          "emp_below_5pct": true,
+          "emp_below_1pct": false
+        },
+        "to_MYELOID_CYTOKINE": {
+          "d": 1.0769,
+          "null_mean": 1.4681,
+          "null_sd": 0.1004,
+          "z": -3.895,
+          "p_closer": 0.0,
+          "emp_below_5pct": true,
+          "emp_below_1pct": true
+        },
+        "to_HEPATOCYTE_NEGCTRL": {
+          "d": 1.9615,
+          "null_mean": 2.006,
+          "null_sd": 0.0723,
+          "z": -0.616,
+          "p_closer": 0.3537,
+          "emp_below_5pct": false,
+          "emp_below_1pct": false
+        }
+      },
+      "COSTIM_41BB": {
+        "n_defined": 19,
+        "n_in_graph": 19,
+        "dropped": [],
+        "to_CNS_VASCULAR": {
+          "d": 1.6316,
+          "null_mean": 1.6581,
+          "null_sd": 0.1179,
+          "z": -0.225,
+          "p_closer": 0.4961,
+          "emp_below_5pct": false,
+          "emp_below_1pct": false
+        },
+        "to_MYELOID_CYTOKINE": {
+          "d": 1.0,
+          "null_mean": 1.4791,
+          "null_sd": 0.1176,
+          "z": -4.073,
+          "p_closer": 0.0,
+          "emp_below_5pct": true,
+          "emp_below_1pct": true
+        },
+        "to_HEPATOCYTE_NEGCTRL": {
+          "d": 1.8421,
+          "null_mean": 2.0224,
+          "null_sd": 0.0856,
+          "z": -2.107,
+          "p_closer": 0.0357,
+          "emp_below_5pct": true,
+          "emp_below_1pct": false
+        }
+      },
+      "_within": {
+        "CNS_VASCULAR": {
+          "n": 36,
+          "mean_within_distance_first12": 3.0417
+        },
+        "MYELOID_CYTOKINE": {
+          "n": 32,
+          "mean_within_distance_first12": 2.9406
+        },
+        "HEPATOCYTE_NEGCTRL": {
+          "n": 12,
+          "mean_within_distance_first12": 3.2231
+        }
+      }
+    }
+  },
+  "contrast": {
+    "full": {
+      "CNS_VASCULAR": {
+        "d_CD28": 1.4615,
+        "d_41BB": 1.6316,
+        "delta_41BB_minus_CD28": 0.1701,
+        "z_CD28": -2.019,
+        "z_41BB": -0.338,
+        "CD28_closer": true
+      },
+      "MYELOID_CYTOKINE": {
+        "d_CD28": 1.0769,
+        "d_41BB": 1.0,
+        "delta_41BB_minus_CD28": -0.0769,
+        "z_CD28": -3.755,
+        "z_41BB": -3.985,
+        "CD28_closer": false
+      },
+      "HEPATOCYTE_NEGCTRL": {
+        "d_CD28": 1.9231,
+        "d_41BB": 1.8421,
+        "delta_41BB_minus_CD28": -0.081,
+        "z_CD28": -0.25,
+        "z_41BB": -1.281,
+        "CD28_closer": false
+      }
+    },
+    "brain": {
+      "CNS_VASCULAR": {
+        "d_CD28": 1.4615,
+        "d_41BB": 1.6316,
+        "delta_41BB_minus_CD28": 0.1701,
+        "z_CD28": -1.909,
+        "z_41BB": -0.225,
+        "CD28_closer": true
+      },
+      "MYELOID_CYTOKINE": {
+        "d_CD28": 1.0769,
+        "d_41BB": 1.0,
+        "delta_41BB_minus_CD28": -0.0769,
+        "z_CD28": -3.895,
+        "z_41BB": -4.073,
+        "CD28_closer": false
+      },
+      "HEPATOCYTE_NEGCTRL": {
+        "d_CD28": 1.9615,
+        "d_41BB": 1.8421,
+        "delta_41BB_minus_CD28": -0.1194,
+        "z_CD28": -0.616,
+        "z_41BB": -2.107,
+        "CD28_closer": false
+      }
+    }
+  }
+}

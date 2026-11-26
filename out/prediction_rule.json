@@ -1,0 +1,117 @@
+{
+  "refutation_threshold": 0.32,
+  "observed_cd28_window": [
+    0.321,
+    0.415
+  ],
+  "observed_cd28_points": [
+    0.39,
+    0.332
+  ],
+  "observed_41bb_points": [
+    0.32,
+    0.318,
+    0.295,
+    0.221,
+    0.218
+  ],
+  "reference_n": 6500,
+  "reference_product": "axi-cel",
+  "blind_band_at_reference_n": [
+    0.309,
+    0.331
+  ],
+  "blind_band_width": 0.022,
+  "rule": "supports if the Wilson lower bound exceeds 0.32; refutes if the Wilson upper bound falls at or below 0.32; otherwise undecidable at any sample size",
+  "table": [
+    {
+      "true_R": 0.15,
+      "verdict": "refutes",
+      "min_reports_for_decisive_verdict": 29
+    },
+    {
+      "true_R": 0.2,
+      "verdict": "refutes",
+      "min_reports_for_decisive_verdict": 59
+    },
+    {
+      "true_R": 0.25,
+      "verdict": "refutes",
+      "min_reports_for_decisive_verdict": 171
+    },
+    {
+      "true_R": 0.28,
+      "verdict": "refutes",
+      "min_reports_for_decisive_verdict": 523
+    },
+    {
+      "true_R": 0.3,
+      "verdict": "refutes",
+      "min_reports_for_decisive_verdict": 2090
+    },
+    {
+      "true_R": 0.31,
+      "verdict": "undecidable",
+      "min_reports_for_decisive_verdict": 8360
+    },
+    {
+      "true_R": 0.32,
+      "verdict": "undecidable",
+      "min_reports_for_decisive_verdict": null
+    },
+    {
+      "true_R": 0.325,
+      "verdict": "undecidable",
+      "min_reports_for_decisive_verdict": 33437
+    },
+    {
+      "true_R": 0.33,
+      "verdict": "undecidable",
+      "min_reports_for_decisive_verdict": 8360
+    },
+    {
+      "true_R": 0.335,
+      "verdict": "supports",
+      "min_reports_for_decisive_verdict": 3716
+    },
+    {
+      "true_R": 0.34,
+      "verdict": "supports",
+      "min_reports_for_decisive_verdict": 2090
+    },
+    {
+      "true_R": 0.36,
+      "verdict": "supports",
+      "min_reports_for_decisive_verdict": 523
+    },
+    {
+      "true_R": 0.39,
+      "verdict": "supports",
+      "min_reports_for_decisive_verdict": 171
+    },
+    {
+      "true_R": 0.415,
+      "verdict": "supports",
+      "min_reports_for_decisive_verdict": 93
+    },
+    {
+      "true_R": 0.45,
+      "verdict": "supports",
+      "min_reports_for_decisive_verdict": 50
+    }
+  ],
+  "n_true_values_resolvable_at_reference_n": 11,
+  "bite_reference": {
+    "point_estimates": [
+      0.273,
+      0.269,
+      0.256,
+      0.246,
+      0.199,
+      0.163,
+      0.15
+    ],
+    "min_reports_to_refute_at_0.20": 59
+  },
+  "why_this_replaces_the_interval": "the interval [0.321, 0.415] is a restatement of the two CD28 intervals and cannot be checked against a single new product, because the gap to the 4-1BB ceiling (0.012) is smaller than the half-width of any product in the table except the largest. Stating the rule with its resolution limit makes the prediction falsifiable in a way a reader can actually compute."
+}

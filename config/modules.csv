@@ -1,0 +1,93 @@
+module,gene,role,provenance
+CNS_VASCULAR,CLDN5,endothelial tight junction,v0.1 curated; v1.0 re-derived from HPA single-cell vascular endothelium + Reactome BBB
+CNS_VASCULAR,OCLN,endothelial tight junction,v0.1 curated
+CNS_VASCULAR,CDH5,endothelial adherens junction,v0.1 curated
+CNS_VASCULAR,PECAM1,endothelial,v0.1 curated
+CNS_VASCULAR,VWF,endothelial activation / Weibel-Palade,v0.1 curated
+CNS_VASCULAR,KDR,VEGF receptor 2,v0.1 curated
+CNS_VASCULAR,FLT1,VEGF receptor 1,v0.1 curated
+CNS_VASCULAR,TEK,TIE2 angiopoietin receptor,v0.1 curated
+CNS_VASCULAR,ANGPT1,vessel stabilisation,v0.1 curated
+CNS_VASCULAR,ANGPT2,vessel destabilisation,v0.1 curated
+CNS_VASCULAR,ESAM,endothelial junction,v0.1 curated
+CNS_VASCULAR,JAM2,endothelial junction,v0.1 curated
+CNS_VASCULAR,SLC2A1,GLUT1 BBB transporter,v0.1 curated
+CNS_VASCULAR,SLC7A5,LAT1 BBB transporter,v0.1 curated
+CNS_VASCULAR,MFSD2A,BBB lipid transporter,v0.1 curated
+CNS_VASCULAR,ABCB1,P-glycoprotein BBB efflux,v0.1 curated
+CNS_VASCULAR,PLVAP,endothelial fenestration / permeability,v0.1 curated
+CNS_VASCULAR,ICAM1,endothelial adhesion,v0.1 curated
+CNS_VASCULAR,VCAM1,endothelial adhesion,v0.1 curated
+CNS_VASCULAR,SELE,E-selectin,v0.1 curated
+CNS_VASCULAR,NOS3,eNOS,v0.1 curated
+CNS_VASCULAR,PDGFRB,pericyte marker,v0.1 curated
+CNS_VASCULAR,RGS5,pericyte marker,v0.1 curated
+CNS_VASCULAR,DES,pericyte,v0.1 curated
+CNS_VASCULAR,ACTA2,pericyte / vSMC,v0.1 curated
+CNS_VASCULAR,MYH11,vSMC contractile,v0.1 curated
+CNS_VASCULAR,NOTCH3,pericyte,v0.1 curated
+CNS_VASCULAR,KCNJ8,pericyte KATP,v0.1 curated
+CNS_VASCULAR,ABCC9,pericyte KATP,v0.1 curated
+CNS_VASCULAR,POSTN,pericyte matrix,v0.1 curated
+CNS_VASCULAR,COL4A1,basement membrane,v0.1 curated
+CNS_VASCULAR,COL4A2,basement membrane,v0.1 curated
+CNS_VASCULAR,LAMA1,basement membrane,v0.1 curated
+CNS_VASCULAR,LAMB1,basement membrane,v0.1 curated
+CNS_VASCULAR,LAMC1,basement membrane,v0.1 curated
+CNS_VASCULAR,HSPG2,perlecan,v0.1 curated
+CNS_VASCULAR,AQP4,astrocyte endfoot,v0.1 curated
+CNS_VASCULAR,SLC1A2,astrocyte glutamate clearance,v0.1 curated
+CNS_VASCULAR,GJA1,connexin 43,v0.1 curated
+MYELOID_CYTOKINE,IL6,CRS effector cytokine,v0.1 curated
+MYELOID_CYTOKINE,IL6R,IL-6 receptor,v0.1 curated
+MYELOID_CYTOKINE,IL6ST,gp130,v0.1 curated
+MYELOID_CYTOKINE,IL1B,CRS effector cytokine,v0.1 curated
+MYELOID_CYTOKINE,IL1R1,IL-1 receptor,v0.1 curated
+MYELOID_CYTOKINE,TNF,TNF-alpha,v0.1 curated
+MYELOID_CYTOKINE,TNFRSF1A,TNFR1,v0.1 curated
+MYELOID_CYTOKINE,IL2,T-cell growth factor,v0.1 curated
+MYELOID_CYTOKINE,IL2RA,CD25,v0.1 curated
+MYELOID_CYTOKINE,IL10,anti-inflammatory,v0.1 curated
+MYELOID_CYTOKINE,IL15,NK/T survival,v0.1 curated
+MYELOID_CYTOKINE,IFNGR1,IFN-gamma receptor,v0.1 curated
+MYELOID_CYTOKINE,CXCL8,IL-8 neutrophil chemokine,v0.1 curated
+MYELOID_CYTOKINE,CCL2,MCP-1,v0.1 curated
+MYELOID_CYTOKINE,CCL3,MIP-1alpha,v0.1 curated
+MYELOID_CYTOKINE,CCL4,MIP-1beta,v0.1 curated
+MYELOID_CYTOKINE,CXCL10,IP-10,v0.1 curated
+MYELOID_CYTOKINE,S100A8,calprotectin,v0.1 curated
+MYELOID_CYTOKINE,S100A9,calprotectin,v0.1 curated
+MYELOID_CYTOKINE,TLR4,innate sensing,v0.1 curated
+MYELOID_CYTOKINE,MYD88,TLR adaptor,v0.1 curated
+MYELOID_CYTOKINE,NFKB1,NF-kB,v0.1 curated
+MYELOID_CYTOKINE,NLRP3,inflammasome,v0.1 curated
+MYELOID_CYTOKINE,CASP1,inflammasome caspase,v0.1 curated
+MYELOID_CYTOKINE,GSDMD,pyroptosis pore,v0.1 curated
+MYELOID_CYTOKINE,STAT3,JAK-STAT,v0.1 curated
+MYELOID_CYTOKINE,JAK1,JAK-STAT,v0.1 curated
+MYELOID_CYTOKINE,JAK2,JAK-STAT,v0.1 curated
+MYELOID_CYTOKINE,CSF2,GM-CSF,v0.1 curated
+MYELOID_CYTOKINE,ITGAM,CD11b myeloid,v0.1 curated
+MYELOID_CYTOKINE,CD14,monocyte,v0.1 curated
+MYELOID_CYTOKINE,LCN2,neutrophil gelatinase,v0.1 curated
+MYELOID_CYTOKINE,IFNG,IFN-gamma,v0.1 curated
+MYELOID_CYTOKINE,PRF1,perforin,v0.1 curated
+MYELOID_CYTOKINE,GZMB,granzyme B,v0.1 curated
+HEPATOCYTE_NEGCTRL,ALB,hepatocyte,v0.1 negative-control module
+HEPATOCYTE_NEGCTRL,APOA1,hepatocyte lipoprotein,v0.1
+HEPATOCYTE_NEGCTRL,APOB,hepatocyte lipoprotein,v0.1
+HEPATOCYTE_NEGCTRL,CYP2E1,xenobiotic metabolism,v0.1
+HEPATOCYTE_NEGCTRL,CYP3A4,xenobiotic metabolism,v0.1
+HEPATOCYTE_NEGCTRL,CYP2D6,xenobiotic metabolism,v0.1
+HEPATOCYTE_NEGCTRL,UGT1A1,glucuronidation,v0.1
+HEPATOCYTE_NEGCTRL,SULT2A1,sulfation,v0.1
+HEPATOCYTE_NEGCTRL,ABCB11,bile salt export,v0.1
+HEPATOCYTE_NEGCTRL,ABCC2,biliary export,v0.1
+HEPATOCYTE_NEGCTRL,SLC10A1,NTCP bile acid uptake,v0.1
+HEPATOCYTE_NEGCTRL,HNF4A,hepatocyte master TF,v0.1
+HEPATOCYTE_NEGCTRL,CPS1,urea cycle,v0.1
+HEPATOCYTE_NEGCTRL,ASS1,urea cycle,v0.1
+HEPATOCYTE_NEGCTRL,TAT,tyrosine aminotransferase,v0.1
+HEPATOCYTE_NEGCTRL,G6PC,glucose-6-phosphatase,v0.1
+HEPATOCYTE_NEGCTRL,F2,prothrombin,v0.1
+HEPATOCYTE_NEGCTRL,SERPINC1,antithrombin,v0.1
